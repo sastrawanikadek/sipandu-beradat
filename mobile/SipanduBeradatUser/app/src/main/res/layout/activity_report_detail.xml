@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sipanduberadat.user.components.MapScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbarThumbVertical="@null"
+    tools:context=".activities.ReportDetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.facebook.shimmer.ShimmerFrameLayout
+            android:id="@+id/shimmer_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:shimmer_duration="1000">
+
+            <include layout="@layout/shimmer_report_detail" />
+
+        </com.facebook.shimmer.ShimmerFrameLayout>
+
+        <LinearLayout
+            android:id="@+id/content_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <androidx.coordinatorlayout.widget.CoordinatorLayout
+                android:id="@+id/map_container"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+                <fragment
+                    android:id="@+id/map_fragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:name="com.google.android.gms.maps.SupportMapFragment" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/btn_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginStart="16dp"
+                    android:src="@drawable/ic_left_arrow"
+                    android:contentDescription="@string/kembali"
+                    app:fabCustomSize="40dp"
+                    app:maxImageSize="20dp" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/emergency_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_gravity="top|end"
+                    android:textColor="@color/white"
+                    android:enabled="false" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/btn_refresh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end"
+                    android:layout_marginBottom="72dp"
+                    android:layout_marginEnd="16dp"
+                    android:src="@drawable/ic_refresh"
+                    android:contentDescription="@string/refresh"
+                    app:fabCustomSize="40dp"
+                    app:maxImageSize="24dp" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/btn_to_location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:src="@drawable/ic_to_location"
+                    android:contentDescription="@string/lokasi_keluhan"
+                    app:fabCustomSize="40dp"
+                    app:maxImageSize="20dp" />
+
+            </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+            <LinearLayout
+                android:id="@+id/status_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/report_status"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/report_status_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/transparent_white"
+                    android:layout_marginTop="4dp"
+                    android:lineSpacingExtra="4dp" />
+
+            </LinearLayout>
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.tabs.TabLayout
+                        android:id="@+id/tabs"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:tabTextAppearance="@android:style/TextAppearance.Widget.TabWidget"
+                        app:tabMode="fixed" />
+
+                    <com.sipanduberadat.user.components.SwipeableViewPager
+                        android:id="@+id/view_pager"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:autoMeasure="true" />
+
+                    <LinearLayout
+                        android:id="@+id/action_container"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:visibility="gone">
+
+                        <com.sipanduberadat.user.components.ProgressButton
+                            android:id="@+id/btn_going"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:text="@string/berangkat" />
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btn_invalid"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:insetBottom="0dp"
+                            android:text="@string/tidak_valid"
+                            android:textAllCaps="false"
+                            android:textColor="@color/white"
+                            app:cornerRadius="0dp"
+                            app:backgroundTint="@color/red_700" />
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btn_valid"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:insetBottom="0dp"
+                            android:text="@string/valid"
+                            android:textAllCaps="false"
+                            android:textColor="@color/white"
+                            app:cornerRadius="0dp"
+                            app:backgroundTint="@color/green" />
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btn_siren"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/nyalakan_e_kulkul"
+                            android:textColor="@color/white"
+                            android:textAllCaps="false"
+                            android:background="@color/red_700"
+                            app:cornerRadius="0dp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.core.widget.NestedScrollView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</com.sipanduberadat.user.components.MapScrollView>

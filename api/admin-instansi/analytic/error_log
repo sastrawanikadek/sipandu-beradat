@@ -1,0 +1,12 @@
+[09-May-2021 15:24:31 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/admin-instansi/analytic/index.php:72
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/admin-instansi/analytic/index.php on line 72
+[09-May-2021 16:21:05 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/admin-instansi/analytic/index.php:425
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/admin-instansi/analytic/index.php on line 425
+[21-May-2021 04:09:11 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/admin-instansi/analytic/index.php:637
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/admin-instansi/analytic/index.php on line 637

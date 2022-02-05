@@ -1,0 +1,8 @@
+[17-Jun-2021 07:30:00 Asia/Makassar] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/sipd6579/public_html/api/otp/verify/index.php on line 53
+[17-Jun-2021 07:30:25 Asia/Makassar] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/sipd6579/public_html/api/otp/verify/index.php on line 53
+[17-Jun-2021 07:30:41 Asia/Makassar] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/sipd6579/public_html/api/otp/verify/index.php on line 53
+[17-Jun-2021 07:31:21 Asia/Makassar] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/sipd6579/public_html/api/otp/verify/index.php on line 53
+[17-Jun-2021 07:31:25 Asia/Makassar] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/sipd6579/public_html/api/otp/verify/index.php on line 53
+[17-Jun-2021 07:32:17 Asia/Makassar] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/sipd6579/public_html/api/otp/verify/index.php on line 53
+[17-Jun-2021 07:32:42 Asia/Makassar] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/sipd6579/public_html/api/otp/verify/index.php on line 53
+[17-Jun-2021 07:33:34 Asia/Makassar] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/sipd6579/public_html/api/otp/verify/index.php on line 53

@@ -1,0 +1,16 @@
+{
+    "name": "sipandu-beradat/api",
+    "description": "Sipandu Beradat API",
+    "require": {
+        "vlucas/phpdotenv": "^5.3",
+        "firebase/php-jwt": "^5.2",
+        "cloudinary/cloudinary_php": "^2.1",
+        "kreait/firebase-php": "^5.17"
+    },
+    "authors": [
+        {
+            "name": "Teknologi Cerdas 2017",
+            "email": "tc2017@unud.ac.id"
+        }
+    ]
+}

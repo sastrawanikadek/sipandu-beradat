@@ -1,0 +1,40 @@
+[16-May-2021 16:42:48 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to undefined function send_notifications() in /home/sipd6579/public_html/api/pelaporan-darurat/validate/index.php:233
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/pelaporan-darurat/validate/index.php on line 233
+[17-May-2021 22:40:45 Asia/Makassar] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to Kreait\Firebase\Messaging\CloudMessage::withTarget() must be of the type string, null given, called in /home/sipd6579/public_html/api/helpers/notification.php on line 10 and defined in /home/sipd6579/public_html/api/vendor/kreait/firebase-php/src/Firebase/Messaging/CloudMessage.php:42
+Stack trace:
+#0 /home/sipd6579/public_html/api/helpers/notification.php(10): Kreait\Firebase\Messaging\CloudMessage::withTarget('token', NULL)
+#1 /home/sipd6579/public_html/api/pelaporan-darurat/validate/index.php(238): send_notifications(Object(Kreait\Firebase\Factory), Array, Array)
+#2 {main}
+  thrown in /home/sipd6579/public_html/api/vendor/kreait/firebase-php/src/Firebase/Messaging/CloudMessage.php on line 42
+[17-May-2021 22:41:18 Asia/Makassar] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to Kreait\Firebase\Messaging\CloudMessage::withTarget() must be of the type string, null given, called in /home/sipd6579/public_html/api/helpers/notification.php on line 10 and defined in /home/sipd6579/public_html/api/vendor/kreait/firebase-php/src/Firebase/Messaging/CloudMessage.php:42
+Stack trace:
+#0 /home/sipd6579/public_html/api/helpers/notification.php(10): Kreait\Firebase\Messaging\CloudMessage::withTarget('token', NULL)
+#1 /home/sipd6579/public_html/api/pelaporan-darurat/validate/index.php(238): send_notifications(Object(Kreait\Firebase\Factory), Array, Array)
+#2 {main}
+  thrown in /home/sipd6579/public_html/api/vendor/kreait/firebase-php/src/Firebase/Messaging/CloudMessage.php on line 42
+[17-May-2021 22:41:22 Asia/Makassar] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to Kreait\Firebase\Messaging\CloudMessage::withTarget() must be of the type string, null given, called in /home/sipd6579/public_html/api/helpers/notification.php on line 10 and defined in /home/sipd6579/public_html/api/vendor/kreait/firebase-php/src/Firebase/Messaging/CloudMessage.php:42
+Stack trace:
+#0 /home/sipd6579/public_html/api/helpers/notification.php(10): Kreait\Firebase\Messaging\CloudMessage::withTarget('token', NULL)
+#1 /home/sipd6579/public_html/api/pelaporan-darurat/validate/index.php(238): send_notifications(Object(Kreait\Firebase\Factory), Array, Array)
+#2 {main}
+  thrown in /home/sipd6579/public_html/api/vendor/kreait/firebase-php/src/Firebase/Messaging/CloudMessage.php on line 42
+[17-May-2021 22:41:44 Asia/Makassar] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to Kreait\Firebase\Messaging\CloudMessage::withTarget() must be of the type string, null given, called in /home/sipd6579/public_html/api/helpers/notification.php on line 10 and defined in /home/sipd6579/public_html/api/vendor/kreait/firebase-php/src/Firebase/Messaging/CloudMessage.php:42
+Stack trace:
+#0 /home/sipd6579/public_html/api/helpers/notification.php(10): Kreait\Firebase\Messaging\CloudMessage::withTarget('token', NULL)
+#1 /home/sipd6579/public_html/api/pelaporan-darurat/validate/index.php(238): send_notifications(Object(Kreait\Firebase\Factory), Array, Array)
+#2 {main}
+  thrown in /home/sipd6579/public_html/api/vendor/kreait/firebase-php/src/Firebase/Messaging/CloudMessage.php on line 42
+[17-May-2021 22:41:53 Asia/Makassar] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to Kreait\Firebase\Messaging\CloudMessage::withTarget() must be of the type string, null given, called in /home/sipd6579/public_html/api/helpers/notification.php on line 10 and defined in /home/sipd6579/public_html/api/vendor/kreait/firebase-php/src/Firebase/Messaging/CloudMessage.php:42
+Stack trace:
+#0 /home/sipd6579/public_html/api/helpers/notification.php(10): Kreait\Firebase\Messaging\CloudMessage::withTarget('token', NULL)
+#1 /home/sipd6579/public_html/api/pelaporan-darurat/validate/index.php(238): send_notifications(Object(Kreait\Firebase\Factory), Array, Array)
+#2 {main}
+  thrown in /home/sipd6579/public_html/api/vendor/kreait/firebase-php/src/Firebase/Messaging/CloudMessage.php on line 42
+[18-May-2021 04:37:17 Asia/Makassar] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to Kreait\Firebase\Messaging\CloudMessage::withTarget() must be of the type string, null given, called in /home/sipd6579/public_html/api/helpers/notification.php on line 10 and defined in /home/sipd6579/public_html/api/vendor/kreait/firebase-php/src/Firebase/Messaging/CloudMessage.php:42
+Stack trace:
+#0 /home/sipd6579/public_html/api/helpers/notification.php(10): Kreait\Firebase\Messaging\CloudMessage::withTarget('token', NULL)
+#1 /home/sipd6579/public_html/api/pelaporan-darurat/validate/index.php(238): send_notifications(Object(Kreait\Firebase\Factory), Array, Array)
+#2 {main}
+  thrown in /home/sipd6579/public_html/api/vendor/kreait/firebase-php/src/Firebase/Messaging/CloudMessage.php on line 42

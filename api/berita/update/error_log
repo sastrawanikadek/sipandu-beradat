@@ -1,0 +1,10 @@
+[08-May-2021 15:17:02 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/berita/update/index.php:339
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/berita/update/index.php on line 339
+[08-May-2021 15:17:07 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/berita/update/index.php:339
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/berita/update/index.php on line 339
+[22-May-2021 23:07:34 Asia/Makassar] PHP Warning:  move_uploaded_file(/images/1621696054-2089552639.png): failed to open stream: No such file or directory in /home/sipd6579/public_html/api/helpers/file.php on line 40
+[22-May-2021 23:07:34 Asia/Makassar] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpB63DRu' to '/images/1621696054-2089552639.png' in /home/sipd6579/public_html/api/helpers/file.php on line 40

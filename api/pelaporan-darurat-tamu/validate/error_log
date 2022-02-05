@@ -1,0 +1,20 @@
+[18-May-2021 06:29:06 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/pelaporan-darurat-tamu/validate/index.php:208
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/pelaporan-darurat-tamu/validate/index.php on line 208
+[18-May-2021 06:30:33 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/pelaporan-darurat-tamu/validate/index.php:208
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/pelaporan-darurat-tamu/validate/index.php on line 208
+[18-May-2021 06:39:04 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/pelaporan-darurat-tamu/validate/index.php:208
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/pelaporan-darurat-tamu/validate/index.php on line 208
+[18-May-2021 11:15:40 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/pelaporan-darurat-tamu/validate/index.php:304
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/pelaporan-darurat-tamu/validate/index.php on line 304
+[18-May-2021 11:16:12 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/pelaporan-darurat-tamu/validate/index.php:304
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/pelaporan-darurat-tamu/validate/index.php on line 304

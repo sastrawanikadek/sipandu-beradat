@@ -1,0 +1,134 @@
+.card-img,
+.card-img-top,
+.card-img-bottom
+{
+    width: 100%; 
+
+    flex-shrink: 0;
+}
+
+.card-img,
+.card-img-top
+{
+    border-top-left-radius: calc(.375rem - 1px);
+    border-top-right-radius: calc(.375rem - 1px);
+}
+
+.card-img-top {
+	width:100%;
+	border-top-left-radius:calc(.35rem - 1px);
+	border-top-right-radius:calc(.35rem - 1px)
+  }
+
+.card-profile-image
+{
+    position: relative;
+}
+.card-profile-image img
+{
+    position: absolute;
+    left: 50%;
+
+    max-width: 140px;
+
+    transition: all .15s ease; 
+    transform: translate(-50%, -50%) scale(1);
+
+    border: 3px solid #fff;
+    border-radius: .375rem;
+}
+.card-profile-image img:hover
+{
+    transform: translate(-50%, -50%) scale(1.03);
+}
+
+.profil-foto{
+	width: 120px; 
+	height:120px; 
+	object-fit:cover;
+	background-color: white;
+}
+
+.profil-foto-petugas{
+	width: 120px; 
+	height:120px; 
+	object-fit:cover
+}
+
+.foto-pelaporan{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.foto{
+	height: 30vh;
+	flex-grow: 1;
+	background-size: cover;
+	overflow: hidden;
+}
+
+.foto img{
+	max-height: 100%;
+	min-width: 100%;
+	object-fit: cover;
+	cursor: pointer;
+	vertical-align: bottom;
+	transition: .3s ease;
+}
+
+.foto img:hover{
+	transition: .3s ease;
+	transform: scale(1.05);
+}
+
+.mymodal {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	visibility: hidden;
+	opacity: 0;
+	transition: all 0.3s ease-in-out;
+	z-index: 9999;
+ }
+ 
+ .modal-overlay {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.4);
+	cursor: pointer;
+ }
+ 
+ .mymodal .btn-close-modal {
+	position: absolute;
+	top: 20px;
+	right: 40px;
+	background: none;
+	outline: none;
+	border: none;
+	color: white;
+	font-size: 32px;
+	cursor: pointer;
+ }
+ 
+ .mymodal .modal-content {
+	position: relative;
+	max-width: 120vh;
+ }
+ 
+ .mymodal .modal-content .img-modal {
+	width: 100%;
+	height: auto;
+ }
+ 
+ .mymodal.modal-show {
+	visibility: visible;
+	opacity: 1;
+ }

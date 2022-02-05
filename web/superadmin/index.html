@@ -1,0 +1,1167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Dahboard | Sipandu Beradat</title>
+    <link
+      rel="stylesheet"
+      href="assets/vendors/mdi/css/materialdesignicons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/vendors/flag-icon-css/css/flag-icon.min.css"
+    />
+    <link rel="stylesheet" href="assets/vendors/css/vendor.bundle.base.css" />
+    <link
+      rel="stylesheet"
+      href="assets/vendors/font-awesome/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/vendors/bootstrap-datepicker/bootstrap-datepicker.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="shortcut icon" href="assets/logo/logosb.png" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/dataTables.bootstrap4.min.css" />
+  </head>
+
+  <body>
+    <div
+      class="position-fixed fixed-top"
+      id="loading"
+      style="display: none; z-index: 9999"
+    >
+      <div
+        style="width: 100%; height: 100vh; background-color: rgba(0, 0, 0, 0.7)"
+        class="d-flex align-items-center justify-content-center"
+      >
+        <div
+          class="d-flex justify-content-center align-items-center flex-column"
+        >
+          <div
+            class="spinner-border text-primary"
+            role="status"
+            style="width: 4rem; height: 4rem"
+          ></div>
+          <h5 class="text-light pt-4 zindex-modal">Sedang Memproses..</h5>
+        </div>
+      </div>
+    </div>
+    <div class="container-scroller">
+      <nav class="sidebar-container sidebar sidebar-offcanvas" id="sidebar">
+        <div
+          class="
+            sidebar-brand-wrapper
+            d-flex
+            align-items-center
+            justify-content-center
+          "
+        >
+          <a class="sidebar-brand brand-logo" href="index.html"
+            ><img src="assets/logo/superadmin.png" alt="logo"
+          /></a>
+          <a class="sidebar-brand brand-logo-mini" href="index.html"
+            ><img src="assets/logo/logosb.png" alt="logo"
+          /></a>
+        </div>
+        <ul class="nav">
+          <li class="nav-item nav-profile bg-pink">
+            <a href="#" class="nav-link">
+              <div class="nav-profile-image">
+                <img
+                  id="sidebar-avatar-admin"
+                  src="assets/img/logosb.png"
+                  alt="profile"
+                />
+              </div>
+              <div class="nav-profile-text d-flex flex-column pr-3">
+                <span
+                  class="font-weight-medium mb-2 text-dark"
+                  id="sidebar-nama-admin"
+                  >Super Admin</span
+                >
+                <span class="font-weight-normal" style="color: #a2a3b7"
+                  >Sipandu Beradat</span
+                >
+              </div>
+            </a>
+          </li>
+
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">
+              <i class="mdi mdi-apps menu-icon icon-fill active"></i>
+              <span class="menu-title">Dashboard</span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              data-toggle="collapse"
+              href="#nav-wilayah"
+              aria-expanded="false"
+              aria-controls="ui-basic"
+            >
+              <i class="mdi mdi-map-marker menu-icon"></i>
+              <span class="menu-title">Wilayah</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="nav-wilayah">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item">
+                  <a class="nav-link" href="./pages/wilayah/negara/negara.html"
+                    >Negara</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="./pages/wilayah/provinsi/provinsi.html"
+                    >Provinsi</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="./pages/wilayah/kabupaten/kabupaten.html"
+                    >Kabupaten</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="./pages/wilayah/kecamatan/kecamatan.html"
+                    >Kecamatan</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="./pages/wilayah/desa-adat/desa-adat.html"
+                    >Desa Adat</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./pages/wilayah/banjar/banjar.html"
+                    >Banjar</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              data-toggle="collapse"
+              href="#nav-instansi-petugas"
+              aria-expanded="false"
+              aria-controls="ui-basic"
+            >
+              <i class="mdi mdi-shield menu-icon"></i>
+              <span class="menu-title">Instansi Petugas</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="nav-instansi-petugas">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="./pages/instansi-petugas/jenis-instansi/jenis-instansi.html"
+                    >Jenis Instansi</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="./pages/instansi-petugas/instansi/instansi.html"
+                    >Instansi</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              data-toggle="collapse"
+              href="#nav-akomodasi"
+              aria-expanded="false"
+              aria-controls="ui-basic"
+            >
+              <i class="mdi mdi-home-city menu-icon"></i>
+              <span class="menu-title">Akomodasi</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="nav-akomodasi">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="./pages/akomodasi/akomodasi/akomodasi.html"
+                    >Akomodasi</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="./pages/akomodasi/fasilitas/fasilitas.html"
+                    >Fasilitas</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              data-toggle="collapse"
+              href="#nav-pelaporan"
+              aria-expanded="false"
+              aria-controls="ui-basic"
+            >
+              <i class="mdi mdi-file-multiple menu-icon"></i>
+              <span class="menu-title">Pelaporan</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="nav-pelaporan">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="./pages/pelaporan/jenis-pelaporan/jenis-pelaporan.html"
+                    >Jenis Pelaporan</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="./pages/pelaporan/pelaporan/pelaporan.html"
+                    >Pelaporan</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="./pages/pelaporan/otoritas-pelaporan/otoritas-pelaporan.html"
+                    >Otoritas Pelaporan</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              data-toggle="collapse"
+              href="#nav-pengaturan"
+              aria-expanded="false"
+              aria-controls="ui-basic"
+            >
+              <i class="mdi mdi-cogs menu-icon"></i>
+              <span class="menu-title">Pengaturan</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="nav-pengaturan">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="./pages/pengaturan/status-aktif-masyarakat/status-aktif-masyarakat.html"
+                    >Status Aktif Masyarakat</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="./pages/pengaturan/pengaturan/pengaturan.html"
+                    >Pengaturan</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <div class="container-fluid page-body-wrapper">
+        <div id="theme-settings" class="settings-panel">
+          <i class="settings-close mdi mdi-close"></i>
+          <p class="settings-heading">SIDEBAR SKINS</p>
+          <div class="sidebar-bg-options selected" id="sidebar-default-theme">
+            <div class="img-ss rounded-circle bg-light border mr-3"></div>
+            Default
+          </div>
+          <div class="sidebar-bg-options" id="sidebar-dark-theme">
+            <div class="img-ss rounded-circle bg-dark border mr-3"></div>
+            Dark
+          </div>
+          <p class="settings-heading mt-2">HEADER SKINS</p>
+          <div class="color-tiles mx-0 px-4">
+            <div class="tiles light"></div>
+            <div class="tiles dark"></div>
+          </div>
+        </div>
+        <nav class="navbar col-lg-12 col-12 p-lg-0 fixed-top d-flex flex-row">
+          <div
+            class="
+              navbar-menu-wrapper
+              d-flex
+              align-items-center
+              justify-content-between
+            "
+          >
+            <a
+              class="navbar-brand brand-logo-mini align-self-center d-lg-none"
+              href="../../index.html"
+              ><img src="../../assets/images/logo-mini.svg" alt="logo"
+            /></a>
+            <button
+              class="navbar-toggler navbar-toggler align-self-center mr-2"
+              type="button"
+              data-toggle="minimize"
+            >
+              <i class="mdi mdi-menu"></i>
+            </button>
+            <ul class="navbar-nav navbar-nav-right ml-lg-auto">
+              <li class="nav-item nav-profile dropdown border-0">
+                <a
+                  class="nav-link dropdown-toggle"
+                  id="profileDropdown"
+                  href="#"
+                  data-toggle="dropdown"
+                >
+                  <img
+                    class="nav-profile-img mr-2"
+                    id="avatar-admin"
+                    alt=""
+                    src="./assets/img/logosb.png"
+                  />
+                  <span class="profile-name" id="nama-admin">Super Admin</span>
+                </a>
+                <div
+                  class="dropdown-menu navbar-dropdown w-100"
+                  aria-labelledby="profileDropdown"
+                >
+                  <a
+                    class="dropdown-item"
+                    data-toggle="modal"
+                    data-target="#modal-change-password-1"
+                  >
+                    <i class="mdi mdi-lock mr-2 text-success"></i>Ubah Kata
+                    Sandi</a
+                  >
+                  <a
+                    class="dropdown-item"
+                    data-toggle="modal"
+                    data-target="#modal-logout"
+                  >
+                    <i class="mdi mdi-logout mr-2 text-primary"></i>Keluar</a
+                  >
+                </div>
+              </li>
+            </ul>
+            <button
+              class="
+                navbar-toggler navbar-toggler-right
+                d-lg-none
+                align-self-center
+              "
+              type="button"
+              data-toggle="offcanvas"
+            >
+              <span class="mdi mdi-menu"></span>
+            </button>
+          </div>
+        </nav>
+        <div class="main-panel">
+          <div class="content-wrapper pb-0">
+            <div class="row">
+              <div class="col-xl-12 col-md-12 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title mb-4 pb-2">Data Pelaporan</h4>
+                    <table class="table table-datatable" id="tabel-pelaporan">
+                      <thead class="bg-light">
+                        <tr>
+                          <th>No.</th>
+                          <th data-type="date">Waktu</th>
+                          <th data-type="text">Nama Pelapor</th>
+                          <th data-type="select">Kategori Pelapor</th>
+                          <th data-type="select">Jenis Pelaporan</th>
+                          <th data-type="select">Kategori Pelaporan</th>
+                          <th data-type="select">Desa Adat Pelaporan</th>
+                          <th data-type="select">Status Pelaporan</th>
+                          <th>Aksi</th>
+                        </tr>
+                      </thead>
+                      <tbody></tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row" data-aos="fade-up">
+              <div class="col-xl-12 col-lg-12 stretch-card grid-margin">
+                <div class="row">
+                  <div
+                    class="
+                      col-xl-3 col-md-3
+                      stretch-card
+                      grid-margin grid-margin-sm-0
+                      pb-sm-3
+                    "
+                  >
+                    <div class="card bg-success">
+                      <div class="card-body px-3 py-4">
+                        <div
+                          class="
+                            d-flex
+                            justify-content-between
+                            align-items-start
+                          "
+                        >
+                          <div class="color-card">
+                            <p class="mb-0 color-card-head">Desa Adat</p>
+                            <h1 class="text-white" id="jumlah-desa-adat"></h1>
+                          </div>
+                          <i
+                            class="
+                              card-icon-indicator
+                              mdi mdi mdi-map-marker-radius
+                              bg-inverse-icon-success
+                            "
+                          ></i>
+                        </div>
+                        <hr class="border-light-total" />
+                        <h6 class="text-white caption-total">
+                          Total keseluruhan desa adat yang ada
+                        </h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="
+                      col-xl-3 col-md-3
+                      stretch-card
+                      grid-margin grid-margin-sm-0
+                      pb-sm-3
+                    "
+                  >
+                    <div class="card bg-primary">
+                      <div class="card-body px-3 py-4">
+                        <div
+                          class="
+                            d-flex
+                            justify-content-between
+                            align-items-start
+                          "
+                        >
+                          <div class="color-card">
+                            <p class="mb-0 color-card-head">Instansi</p>
+                            <h1 class="text-white" id="jumlah-instansi"></h1>
+                          </div>
+                          <i
+                            class="
+                              card-icon-indicator
+                              mdi mdi mdi-alarm-light
+                              bg-inverse-icon-primary
+                            "
+                          ></i>
+                        </div>
+                        <hr class="border-light-total" />
+                        <h6 class="text-white caption-total">
+                          Total keseluruhan instansi yang ada
+                        </h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="
+                      col-xl-3 col-md-3
+                      stretch-card
+                      grid-margin grid-margin-sm-0
+                      pb-sm-3
+                    "
+                  >
+                    <div class="card bg-primary-red">
+                      <div class="card-body px-3 py-4">
+                        <div
+                          class="
+                            d-flex
+                            justify-content-between
+                            align-items-start
+                          "
+                        >
+                          <div class="color-card">
+                            <p class="mb-0 color-card-head">Akomodasi</p>
+                            <h1 class="text-white" id="jumlah-akomodasi"></h1>
+                          </div>
+                          <i
+                            class="
+                              card-icon-indicator
+                              mdi mdi mdi-home-city
+                              bg-inverse-icon-primary-red
+                            "
+                          ></i>
+                        </div>
+                        <hr class="border-light-total" />
+                        <h6 class="text-white caption-total">
+                          Total keseluruhan akomodasi yang ada
+                        </h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="
+                      col-xl-3 col-md-3
+                      stretch-card
+                      grid-margin grid-margin-sm-0
+                      pb-sm-3
+                    "
+                  >
+                    <div class="card bg-dark">
+                      <div class="card-body px-3 py-4">
+                        <div
+                          class="
+                            d-flex
+                            justify-content-between
+                            align-items-start
+                          "
+                        >
+                          <div class="color-card">
+                            <p class="mb-0 color-card-head">Pengguna</p>
+                            <h1 class="text-white" id="jumlah-pengguna"></h1>
+                          </div>
+                          <i
+                            class="
+                              card-icon-indicator
+                              mdi mdi mdi-account-group
+                              bg-inverse-icon-dark
+                            "
+                          ></i>
+                        </div>
+                        <hr class="border-light-total" />
+                        <h6 class="text-white caption-total">
+                          Total keseluruhan pengguna Sipandu Beradat (Masyarakat
+                          & Tamu)
+                        </h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-xl-12 stretch-card grid-margin"
+                data-aos="fade-up"
+              >
+                <div class="card">
+                  <div class="card-body">
+                    <div
+                      class="
+                        d-flex
+                        justify-content-between
+                        align-items-start
+                        mb-3
+                      "
+                    >
+                      <div>
+                        <h5>
+                          Statistik Pelaporan Desa Adat
+                          <span class="nama-desa"></span>
+                        </h5>
+                        <p class="text-muted mb-0">
+                          Statistik pelaporan keluhan & darurat
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="row my-4">
+                      <div class="col-sm-12">
+                        <canvas id="chartWeek"></canvas>
+                        <canvas id="chartMonth" style="display: none"></canvas>
+                        <canvas id="chartYear" style="display: none"></canvas>
+                      </div>
+                    </div>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div>
+                        <p class="mb-0 text-muted">Total Pelaporan</p>
+                        <div class="d-flex align-items-end">
+                          <h5
+                            class="d-inline-block survey-value mb-0"
+                            id="total-today-pelaporan"
+                          ></h5>
+                          <p class="d-inline-block text-danger mb-1">
+                            / hari ini
+                          </p>
+                        </div>
+                      </div>
+                      <div>
+                        <p class="text-muted mb-1" for="">
+                          Filter Statistik Pelaporan
+                        </p>
+                        <div class="btn-group">
+                          <button
+                            type="button"
+                            class="btn btn-toggle-chart btn-primary"
+                            id="btn-week"
+                          >
+                            Minggu
+                          </button>
+                          <button
+                            type="button"
+                            class="btn btn-toggle-chart"
+                            id="btn-month"
+                          >
+                            Bulan
+                          </button>
+                          <button
+                            type="button"
+                            class="btn btn-toggle-chart"
+                            id="btn-year"
+                          >
+                            Tahun
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <hr />
+                    <h5>Total Pelaporan<span class="nama-desa"></span></h5>
+                    <p class="text-muted mb-0">
+                      Total Pelaporan Darurat & Keluhan
+                    </p>
+                    <div class="row py-3">
+                      <div class="col-sm-6">
+                        <div class="card shadow-none mb-3 mb-sm-0">
+                          <div class="card-body py-3 px-4">
+                            <div
+                              class="
+                                d-flex
+                                align-items-center
+                                justify-content-between
+                              "
+                            >
+                              <div>
+                                <p class="m-0 pb-1 survey-head">
+                                  Pelaporan Darurat
+                                </p>
+                                <h3
+                                  class="m-0 survey-value"
+                                  id="jumlah-pelaporan-darurat"
+                                ></h3>
+                              </div>
+                              <i
+                                class="
+                                  card-icon-indicator
+                                  mdi mdi-file-multiple
+                                  bg-primary-red
+                                "
+                              ></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-6">
+                        <div class="card shadow-none mb-3 mb-sm-0">
+                          <div class="card-body py-3 px-4">
+                            <div
+                              class="
+                                d-flex
+                                align-items-center
+                                justify-content-between
+                              "
+                            >
+                              <div>
+                                <p class="m-0 pb-1 survey-head">
+                                  Pelaporan Keluhan
+                                </p>
+                                <h3
+                                  class="m-0 survey-value"
+                                  id="jumlah-pelaporan-keluhan"
+                                ></h3>
+                              </div>
+                              <i
+                                class="
+                                  card-icon-indicator
+                                  mdi mdi-file-multiple
+                                  bg-primary
+                                "
+                              ></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <form id="form-mapsbaru">
+              <div class="row">
+                <div class="form-group mb-4 col-md-6">
+                  <label for="tambah-kabupaten">Kabupaten</label>
+                  <select class="form-control" id="tambah-kabupaten">
+                    <option value="">Pilih Kabupaten</option>
+                  </select>
+                </div>
+                <div class="form-group mb-4 col-md-6">
+                  <label for="tambah-kecamatan">Kecamatan</label>
+                  <select class="form-control" id="tambah-kecamatan">
+                    <option value="">Pilih Kecamatan</option>
+                  </select>
+                </div>
+              </div>
+            </form>
+            <div class="row">
+              <div
+                class="
+                  col-xl-12 col-md-12
+                  stretch-card
+                  grid-margin
+                  stretch-card
+                "
+              >
+                <!--browser stats-->
+                <div class="card">
+                  <div
+                    class="card-body"
+                    id="maps"
+                    style="
+                      position: relative;
+                      width: 100%;
+                      height: 500px;
+                      border-radius: 0.375rem;
+                    "
+                  ></div>
+                </div>
+                <!--browser stats ends-->
+              </div>
+            </div>
+          </div>
+
+          <!-- Logout Modal-->
+          <div
+            class="modal fade"
+            id="modal-logout"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">
+                    Apakah anda yakin akan keluar?
+                  </h5>
+                  <button
+                    class="close"
+                    type="button"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">×</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p>Tekan tombol keluar untuk keluar dari akun ini.</p>
+                  <div class="modal-footer">
+                    <button
+                      class="btn btn-secondary"
+                      type="button"
+                      data-dismiss="modal"
+                    >
+                      Batal
+                    </button>
+                    <a class="btn btn-primary btn-logout" href="#">Keluar</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Modal change Password 1-->
+          <div
+            class="modal fade"
+            id="modal-change-password-1"
+            role="dialog"
+            aria-labelledby="exampleModalCenterTitle"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">
+                    Atur Ulang Kata Sandi
+                  </h5>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="text-center">
+                    <div class="">
+                      <img
+                        src="assets/images/forgot_password.png"
+                        style="width: 250px"
+                      />
+                    </div>
+                  </div>
+                  <p class="text-center">
+                    <span style="font-weight: bold">TEKAN TOMBOL LANJUT.</span
+                    ><br />Kode verifikasi akan dikirimkan ke Email anda untuk
+                    atur ulang kata sandi.
+                  </p>
+                  <!-- <input type="hidden" id="" /> -->
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-dismiss="modal"
+                    >
+                      Batal
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-primary"
+                      id="btn-send-otp"
+                      data-dismiss="modal"
+                      data-toggle="modal"
+                      data-target="#modal-change-password-2"
+                    >
+                      Lanjut
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Modal change Password 2-->
+          <div
+            class="modal fade"
+            id="modal-change-password-2"
+            role="dialog"
+            aria-labelledby="exampleModalCenterTitle"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">
+                    Atur Ulang Kata Sandi
+                  </h5>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body text-center">
+                  <div class="text-center">
+                    <div class="">
+                      <img
+                        src="assets/images/Mail_sent.png"
+                        style="width: 150px"
+                      />
+                    </div>
+                  </div>
+                  <h4 class="text-center font-weight-bold">
+                    Masukkan Kode Verifikasi
+                  </h4>
+                  <p class="text-center mb-4">
+                    Kode verifikasi telah dikirim melalui Email Anda.
+                  </p>
+                  <form autocomplete="off" id="otp-form">
+                    <input type="text" id="otp" />
+                  </form>
+                  <p style="font-size: 12px" class="text-center">
+                    Tidak menerima kode?
+                    <span class="text-primary"
+                      ><a href="#" id="btn-resend-otp">Kirim ulang</a></span
+                    >
+                  </p>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-dismiss="modal"
+                    >
+                      Batal
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="modal fade"
+            id="modal-change-password"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="exampleModalCenterTitle"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">
+                    Kata Sandi Baru
+                  </h5>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <form id="form-change-password">
+                    <p
+                      style="
+                        font-size: 12px;
+                        color: hsl(0, 0%, 71%);
+                        font-weight: 10px;
+                        margin-bottom: 0px !important;
+                      "
+                    >
+                      Buat kata sandi yang kuat untuk akun anda.
+                    </p>
+                    <hr class="mb-4" style="margin-top: 2px !important" />
+                    <!-- <input type="hidden" id="forgot-id" /> -->
+                    <div class="form-group">
+                      <label>Kata Sandi Lama</label>
+                      <div class="input-group" id="show_hide_password">
+                        <input
+                          id="old-password"
+                          type="password"
+                          class="form-control"
+                          placeholder="Masukkan Kata Sandi Lama"
+                          aria-describedby="button-addon2"
+                        />
+                        <div class="input-group-append">
+                          <button
+                            class="btn btn-outline-secondary"
+                            style="
+                              border-top-right-radius: 20px;
+                              border-bottom-right-radius: 20px;
+                            "
+                            type="button"
+                            id="button-addon2"
+                          >
+                            <a class="mdi mdi-eye-off" aria-hidden="true"></a>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label>Kata Sandi Baru</label>
+                      <div class="input-group" id="show_hide_password">
+                        <input
+                          id="new-password"
+                          type="password"
+                          class="form-control"
+                          placeholder="Masukkan Kata Sandi Baru"
+                          aria-describedby="button-addon2"
+                        />
+                        <div class="input-group-append">
+                          <button
+                            class="btn btn-outline-secondary"
+                            style="
+                              border-top-right-radius: 20px;
+                              border-bottom-right-radius: 20px;
+                            "
+                            type="button"
+                            id="button-addon2"
+                          >
+                            <a class="mdi mdi-eye-off" aria-hidden="true"></a>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label>Ulangi Kata Sandi Baru</label>
+                      <div class="input-group" id="show_hide_password">
+                        <input
+                          id="confirm-password"
+                          type="password"
+                          class="form-control"
+                          placeholder="Ulangi Kata Sandi Baru"
+                          aria-describedby="button-addon2"
+                        />
+                        <div class="input-group-append">
+                          <button
+                            class="btn btn-outline-secondary"
+                            style="
+                              border-top-right-radius: 20px;
+                              border-bottom-right-radius: 20px;
+                            "
+                            type="button"
+                            id="button-addon2"
+                          >
+                            <a class="mdi mdi-eye-off" aria-hidden="true"></a>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-dismiss="modal"
+                      >
+                        Batal
+                      </button>
+                      <button type="submit" class="btn btn-primary">
+                        Simpan
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <footer class="footer">
+            <div
+              class="
+                d-sm-flex
+                justify-content-center justify-content-sm-between
+              "
+            >
+              <span
+                class="
+                  text-muted
+                  d-block
+                  text-center text-sm-left
+                  d-sm-inline-block
+                "
+                >Copyright © Sipandu Beradat 2021</span
+              >
+              <span
+                class="
+                  float-none float-sm-right
+                  d-block
+                  mt-1 mt-sm-0
+                  text-center
+                "
+              >
+                Free
+                <a href="https://www.bootstrapdash.com/" target="_blank"
+                  >Bootstrap dashboard template</a
+                >
+                from Bootstrapdash.com</span
+              >
+            </div>
+          </footer>
+        </div>
+        <!-- main-panel ends -->
+      </div>
+      <!-- page-body-wrapper ends -->
+    </div>
+    <!-- container-scroller -->
+    <!-- plugins:js -->
+    <script src="assets/vendors/js/vendor.bundle.base.js"></script>
+    <!-- endinject -->
+    <!-- Plugin js for this page -->
+    <script src="assets/vendors/chart.js/Chart.min.js"></script>
+    <script src="assets/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
+    <script src="assets/vendors/flot/jquery.flot.js"></script>
+    <script src="assets/vendors/flot/jquery.flot.resize.js"></script>
+    <script src="assets/vendors/flot/jquery.flot.categories.js"></script>
+    <script src="assets/vendors/flot/jquery.flot.fillbetween.js"></script>
+    <script src="assets/vendors/flot/jquery.flot.stack.js"></script>
+    <script src="assets/vendors/flot/jquery.flot.pie.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- End plugin js for this page -->
+    <!-- inject:js -->
+    <script src="assets/js/off-canvas.js"></script>
+    <script src="assets/js/hoverable-collapse.js"></script>
+    <script src="assets/js/misc.js"></script>
+    <!-- endinject -->
+
+    <script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.24/js/dataTables.bootstrap4.min.js"></script>
+
+    <!-- Fungsi Nampilin Data Dashboard -->
+    <script>
+      $(document).ready(async () => {
+        const req = await fetch(
+          "https://sipanduberadat.com/api/superadmin/analytic/"
+        );
+        const { status_code, message, data } = await req.json();
+        if (status_code === 200) {
+          $("#total-today-pelaporan").html(data.total_today_pelaporan);
+          $("#jumlah-desa-adat").html(data.total_desa_adat);
+          $("#jumlah-instansi").html(data.total_instansi);
+          $("#jumlah-akomodasi").html(data.total_akomodasi);
+          $("#jumlah-pelaporan").html(
+            data.total_pelaporan + data.total_pelaporan_darurat
+          );
+          $("#jumlah-pengguna").html(data.total_masyarakat + data.total_tamu);
+          $("#jumlah-pelaporan-keluhan").html(data.total_pelaporan);
+          $("#jumlah-pelaporan-darurat").html(data.total_pelaporan_darurat);
+          $("#total-darurat").text(data.total_pelaporan_darurat);
+          $("#total-keluhan").text(data.total_pelaporan);
+        }
+      });
+    </script>
+
+    <script>
+      async function initMyMap() {
+        const desaAdats = await getDesaAdat();
+        const namaKecamatan = $("#tambah-kecamatan").val();
+        const infoWindow = new google.maps.InfoWindow();
+        map = new google.maps.Map(document.getElementById("maps"), {
+          center: {
+            lat: -8.3405,
+            lng: 115.092,
+          },
+          zoom: 8,
+        });
+      }
+    </script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvC1wgMf7631iiv1o7kaNXcnswYQ9b59I&callback=initMyMap"
+      async
+      defer
+    ></script>
+
+    <script src="read-pelaporan.js"></script>
+    <script src="js/logout.js"></script>
+    <script src="js/refresh-token.js"></script>
+    <script src="js/show-password.js"></script>
+    <script src="js/change-password.js"></script>
+    <script src="js/filter-table.js"></script>
+    <script src="chart-pelaporan.js"></script>
+    <script src="dataMap.js"></script>
+    <script src="mapsBaru.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="assets/js/loading.js"></script>
+    <script src="assets/js/Auth/navbar-admin.js"></script>
+  </body>
+</html>

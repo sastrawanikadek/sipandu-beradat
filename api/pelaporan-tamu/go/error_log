@@ -1,0 +1,12 @@
+[13-May-2021 16:21:00 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/pelaporan-tamu/go/index.php:59
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/pelaporan-tamu/go/index.php on line 59
+[13-May-2021 16:21:13 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/pelaporan-tamu/go/index.php:59
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/pelaporan-tamu/go/index.php on line 59
+[13-May-2021 16:21:41 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/pelaporan-tamu/go/index.php:59
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/pelaporan-tamu/go/index.php on line 59

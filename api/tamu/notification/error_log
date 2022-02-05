@@ -1,0 +1,4 @@
+[17-May-2021 15:16:02 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/tamu/notification/index.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/tamu/notification/index.php on line 16

@@ -1,0 +1,4 @@
+[25-May-2021 15:01:22 Asia/Makassar] PHP Warning:  Use of undefined constant payload - assumed 'payload' (this will throw an Error in a future version of PHP) in /home/sipd6579/public_html/api/password/change/index.php on line 6
+[25-May-2021 15:01:22 Asia/Makassar] PHP Warning:  Illegal string offset 'role' in /home/sipd6579/public_html/api/password/change/index.php on line 6
+[25-May-2021 15:01:57 Asia/Makassar] PHP Warning:  Use of undefined constant payload - assumed 'payload' (this will throw an Error in a future version of PHP) in /home/sipd6579/public_html/api/password/change/index.php on line 6
+[25-May-2021 15:01:57 Asia/Makassar] PHP Warning:  Illegal string offset 'role' in /home/sipd6579/public_html/api/password/change/index.php on line 6

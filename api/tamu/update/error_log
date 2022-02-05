@@ -1,0 +1,2 @@
+[24-May-2021 22:57:21 Asia/Makassar] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/sipd6579/public_html/api/tamu/update/index.php on line 246
+[24-May-2021 22:57:53 Asia/Makassar] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/sipd6579/public_html/api/tamu/update/index.php on line 246

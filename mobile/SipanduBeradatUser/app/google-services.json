@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "595260862732",
+    "firebase_url": "https://iottopik-default-rtdb.firebaseio.com",
+    "project_id": "iottopik",
+    "storage_bucket": "iottopik.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:595260862732:android:89e471400c9e05cea09929",
+        "android_client_info": {
+          "package_name": "com.sipanduberadat.user"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "595260862732-6j2mve3e5cm95paff4s4k04cbu8aj1th.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBMRieYb2lafqpPsQP_vQ0zTtn9VNkc8U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "595260862732-6j2mve3e5cm95paff4s4k04cbu8aj1th.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

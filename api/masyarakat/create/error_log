@@ -1,0 +1,2 @@
+[22-May-2021 22:30:18 Asia/Makassar] PHP Warning:  move_uploaded_file(/images/1621693818-909013363.png): failed to open stream: No such file or directory in /home/sipd6579/public_html/api/helpers/file.php on line 40
+[22-May-2021 22:30:18 Asia/Makassar] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phph7Tpa4' to '/images/1621693818-909013363.png' in /home/sipd6579/public_html/api/helpers/file.php on line 40

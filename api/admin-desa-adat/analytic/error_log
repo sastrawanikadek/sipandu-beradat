@@ -1,0 +1,24 @@
+[06-May-2021 15:55:20 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/admin-desa-adat/analytic/index.php:83
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/admin-desa-adat/analytic/index.php on line 83
+[06-May-2021 15:55:25 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/admin-desa-adat/analytic/index.php:83
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/admin-desa-adat/analytic/index.php on line 83
+[06-May-2021 16:25:03 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/admin-desa-adat/analytic/index.php:83
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/admin-desa-adat/analytic/index.php on line 83
+[06-May-2021 16:46:57 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/admin-desa-adat/analytic/index.php:83
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/admin-desa-adat/analytic/index.php on line 83
+[06-May-2021 16:47:00 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/admin-desa-adat/analytic/index.php:83
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/admin-desa-adat/analytic/index.php on line 83
+[06-May-2021 16:49:34 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/sipd6579/public_html/api/admin-desa-adat/analytic/index.php:201
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/admin-desa-adat/analytic/index.php on line 201

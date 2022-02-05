@@ -1,0 +1,32 @@
+[19-Apr-2021 16:30:13 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/sipd6579/public_html/api/fasilitas/index.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/fasilitas/index.php on line 31
+[19-Apr-2021 16:30:19 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/sipd6579/public_html/api/fasilitas/index.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/fasilitas/index.php on line 31
+[19-Apr-2021 16:30:34 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/sipd6579/public_html/api/fasilitas/index.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/fasilitas/index.php on line 31
+[22-Apr-2021 16:45:52 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/sipd6579/public_html/api/fasilitas/index.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/fasilitas/index.php on line 31
+[22-Apr-2021 16:45:56 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/sipd6579/public_html/api/fasilitas/index.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/fasilitas/index.php on line 31
+[22-Apr-2021 17:13:27 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/sipd6579/public_html/api/fasilitas/index.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/fasilitas/index.php on line 31
+[22-Apr-2021 17:14:06 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/sipd6579/public_html/api/fasilitas/index.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/fasilitas/index.php on line 31
+[23-Apr-2021 19:54:34 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/sipd6579/public_html/api/fasilitas/index.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/fasilitas/index.php on line 31

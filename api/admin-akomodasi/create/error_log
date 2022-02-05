@@ -1,0 +1,1 @@
+[22-May-2021 22:12:39 Asia/Makassar] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/sipd6579/public_html/api/admin-akomodasi/create/index.php on line 150

@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>Admin Instansi | Sipandu Beradat</title>
+  <link rel="stylesheet" href="../../assets/vendors/mdi/css/materialdesignicons.min.css" />
+  <link rel="stylesheet" href="../../assets/vendors/flag-icon-css/css/flag-icon.min.css" />
+  <link rel="stylesheet" href="../../assets/vendors/css/vendor.bundle.base.css" />
+  <link rel="stylesheet" href="../../assets/css/style.css" />
+  <link rel="shortcut icon" href="../../assets/logo/logosb.png" />
+
+  <link rel="stylesheet" href="../../assets/css/custom-style.css">
+  
+
+  <link rel="stylesheet" href="../../assets/css/dataTables.bootstrap4.min.css" />
+  <link rel="stylesheet" href="../../assets/css/select2.min.css">
+</head>
+
+<body>
+  <div class="position-fixed fixed-top" id="loading" style="display: none; z-index:9999;">
+    <div style="width: 100%; height:100vh; background-color:rgba(0, 0, 0, 0.7)"
+      class="d-flex align-items-center justify-content-center">
+      <div class="d-flex justify-content-center align-items-center flex-column">
+<div class="spinner-border text-primary-red" role="status" style="width: 4rem; height: 4rem"></div>
+        <h5 class="text-light pt-4 zindex-modal">Sedang Memproses..</h5>
+      </div>
+    </div>
+  </div>
+  <div class="container-scroller">
+    <nav class="sidebar sidebar-offcanvas" id="sidebar">
+      <div class="sidebar-brand-wrapper d-flex align-items-center justify-content-center">
+        <a class="sidebar-brand brand-logo" href="../../index.html"><img alt="Images"
+            src="../../assets//img/instansi.png" alt="logo" /></a>
+        <a class="sidebar-brand brand-logo-mini" href="../../index.html"><img alt="Images"
+            src="../../assets/logo/logosb.png" alt="logo" /></a>
+      </div>
+      <ul class="nav">
+        <li class="nav-item nav-profile bg-pink">
+          <a href="#" class="nav-link">
+            <div class="nav-profile-image">
+              <img alt="Images" class="avatar-admin" src="" alt="profile" />
+            </div>
+            <div class="nav-profile-text d-flex flex-column pr-3">
+              <span class="mb-2 nama-admin text-capitalize"></span>
+              <span class="nama-instansi"></span>
+            </div>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="../../index.html">
+            <i class="mdi mdi-apps menu-icon"></i>
+            <span class="menu-title">Dashboard</span>
+          </a>
+        </li>
+
+        <li class="nav-item active">
+          <a class="nav-link" href="admin-instansi.html">
+            <i class="mdi mdi-account-star menu-icon active"></i>
+            <span class="menu-title">Admin Instansi</span>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="../petugas/petugas.html">
+            <i class="mdi mdi-account-group menu-icon "></i>
+            <span class="menu-title">Petugas</span>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="../pelaporan/pelaporan.html">
+            <i class="mdi mdi-file-multiple menu-icon"></i>
+            <span class="menu-title">Pelaporan</span>
+          </a>
+        </li>
+
+      </ul>
+    </nav>
+    <div class="container-fluid page-body-wrapper">
+      <div id="theme-settings" class="settings-panel">
+        <i class="settings-close mdi mdi-close"></i>
+        <p class="settings-heading">SIDEBAR SKINS</p>
+        <div class="sidebar-bg-options selected" id="sidebar-default-theme">
+          <div class="img-ss rounded-circle bg-light border mr-3"></div>
+          Default
+        </div>
+        <div class="sidebar-bg-options" id="sidebar-dark-theme">
+          <div class="img-ss rounded-circle bg-dark border mr-3"></div>
+          Dark
+        </div>
+        <p class="settings-heading mt-2">HEADER SKINS</p>
+        <div class="color-tiles mx-0 px-4">
+          <div class="tiles light"></div>
+          <div class="tiles dark"></div>
+        </div>
+      </div>
+      <nav class="navbar col-lg-12 col-12 p-lg-0 fixed-top d-flex flex-row">
+        <div class="navbar-menu-wrapper d-flex align-items-center justify-content-between">
+          <a class="navbar-brand brand-logo-mini align-self-center d-lg-none" href="../../index.html"><img alt="Images"
+              src="../../assets/logo/logosb.png" alt="logo" /></a>
+          <button class="navbar-toggler navbar-toggler align-self-center mr-2" type="button" data-toggle="minimize">
+            <i class="mdi mdi-menu"></i>
+          </button>
+          <div class="nav-desa flex-column ml-2">
+            <h6 class="m-0 mb-1 text-muted">Instansi</h6>
+            <h5 class="m-0 text-dark alamat-instansi text-capitalize"></h5>
+          </div>
+          <ul class="navbar-nav navbar-nav-right ml-lg-auto">
+            <li class="nav-item nav-profile dropdown border-0">
+              <a class="nav-link dropdown-toggle" id="profileDropdown" href="#" data-toggle="dropdown">
+                <img alt="Images" class="nav-profile-img mr-2 avatar-admin" src="" />
+                <span class="profile-name nama-admin text-capitalize"></span>
+              </a>
+              <div class="dropdown-menu navbar-dropdown w-100" aria-labelledby="profileDropdown">
+                <a class="dropdown-item" href="../profil-akun/profil-admin.html">
+                  <i class="mdi mdi-account-box-outline mr-2 text-success"></i>Profil Admin</a>
+                <a class="dropdown-item" data-toggle="modal" data-target="#modal-logout">
+                  <i class="mdi mdi-logout mr-2 text-primary"></i>Keluar</a>
+              </div>
+            </li>
+          </ul>
+          <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button"
+            data-toggle="offcanvas">
+            <span class="mdi mdi-menu"></span>
+          </button>
+        </div>
+      </nav>
+      <div class="main-panel">
+        <div class="content-wrapper">
+          <div class="page-header d-flex flex-between align-items-center px-2">
+            <div class="d-flex flex-column">
+              <h1 class="page-title">Admin Instansi</h1>
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb p-0 mt-1">
+                  <li class="breadcrumb-item">
+                    <a href="../../index.html">Dashboard</a>
+                  </li>
+                  <li class="breadcrumb-item active" aria-current="page">
+                    Admin Instansi
+                  </li>
+                </ol>
+              </nav>
+            </div>
+            <button type="button" data-toggle="modal" data-target="#modal-tambah-admin"
+              class="btn btn-tambah btn-rounded btn-primary btn-icon-text">
+              <i class="mdi mdi-plus btn-icon-prepend"></i>Tambah Admin
+            </button>
+            <button type="button" data-toggle="modal" data-target="#modal-tambah-admin"
+              class="btn-circle-tambah shadow-sm btn-primary"><i class="mdi mdi-plus m-0 p-0"
+                style="font-size: 20px;"></i></button>
+          </div>
+          <div class="row">
+            <div class="col-lg-12 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title mb-4 pb-2">Data Admin Instansi</h4>
+                  <div class="table-responsive">
+                    <table class="table table-datatable" id="tabel-admin-instansi"> 
+                      <thead class="bg-light">
+                        <tr>
+                          <th>No</th>
+                          <th data-type="text">Nama</th>
+                          <th data-type="select">Jenis Kelamin</th>
+                          <th data-type="text">Jenis Instansi</th>
+                          <th data-type="select">Status Superadmin</th>
+                          <th data-type="select">Status Aktif</th>
+                          <th>Aksi</th>
+                        </tr>
+                      </thead>
+                      <tbody style="text-transform: capitalize;">
+
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal Tambah -->
+        <div class="modal fade" id="modal-tambah-admin" role="dialog" aria-labelledby="exampleModalCenterTitle"
+          aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">
+                  Tambah Data Admin Instansi
+                </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <form id="form-tambah-admin">
+                  <div class="form-group mb-4">
+                    <label>Admin Instansi</label>
+                    <select class="js-example-basic-single" id="tambah-admin-instansi" style="width: 100%">
+                    </select>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                      Batal
+                    </button>
+                    <button type="submit" class="btn btn-primary">
+                      Simpan
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Logout Modal-->
+        <div class="modal fade" id="modal-logout" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">
+                  Apakah anda yakin akan keluar?
+                </h5>
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>Tekan tombol keluar untuk keluar dari akun ini.</p>
+                <div class="modal-footer">
+                  <button class="btn btn-secondary" type="button" data-dismiss="modal">
+                    Batal
+                  </button>
+                  <button class="btn btn-primary btn-logout">Keluar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal Hapus -->
+        <div class="modal fade" id="modal-hapus-admin" role="dialog" aria-labelledby="exampleModalCenterTitle"
+          aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">
+                  Hapus Data Admin Instansi
+                </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>Apakah anda yakin menghapus data admin ini?</p>
+                <input type="hidden" id="hapus-id" />
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                    Batal
+                  </button>
+                  <button type="button" class="btn btn-primary" id="btn-hapus-admin">
+                    Hapus
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal Edit Admin -->
+        <div class="modal fade" id="modal-edit-admin" role="dialog" aria-labelledby="exampleModalCenterTitle"
+          aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">
+                  Edit Data Admin Instansi
+                </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <form id="form-edit-admin">
+                  <input type="hidden" id="edit-id" />
+                  <input type="hidden" id="edit-id-petugas" />
+                  <div class="form-group mb-4">
+                    <label>Status Aktif</label>
+                    <select class="js-example-basic-single" id="edit-active-status" style="width: 100%">
+                      <option value="true">Aktif</option>
+                      <option value="false">Nonaktif</option>
+                    </select>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                      Batal
+                    </button>
+                    <button type="submit" class="btn btn-primary">
+                      Simpan
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+         <!-- Modal forgot Password 1-->
+         <div class="modal fade" id="modal-forgot-password-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+         aria-hidden="true">
+         <div class="modal-dialog modal-dialog-centered" role="document">
+           <div class="modal-content">
+             <div class="modal-header">
+               <h5 class="modal-title" id="exampleModalLongTitle">
+                 Atur Ulang Kata Sandi
+               </h5>
+               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                 <span aria-hidden="true">&times;</span>
+               </button>
+             </div>
+             <div class="modal-body">
+               <div class="text-center">
+                 <div class="">
+                   <img src="../../assets/images/forgot_password.png" style="width: 250px;">
+                 </div>
+               </div>
+               <p class="text-center"><span style="font-weight: bold;">TEKAN TOMBOL LANJUT.</span><br>Kode verifikasi
+                 akan dikirimkan ke Email anda untuk atur ulang kata sandi.</p>
+               <input type="hidden" id="forgot-id" />
+               <div class="modal-footer">
+                 <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                   Batal
+                 </button>
+                 <button type="button" class="btn btn-primary" id="btn-send-otp" data-toggle="modal" data-target="modal-forgot-password-2">
+                   Lanjut
+                 </button>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+
+       <!-- Modal Forgot Password 2-->
+       <div class="modal fade" id="modal-forgot-password-2" role="dialog" aria-labelledby="exampleModalCenterTitle"
+         aria-hidden="true">
+         <div class="modal-dialog modal-dialog-centered" role="document">
+           <div class="modal-content">
+             <div class="modal-header">
+               <h5 class="modal-title" id="exampleModalLongTitle">
+                 Atur Ulang Kata Sandi
+               </h5>
+               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                 <span aria-hidden="true">&times;</span>
+               </button>
+             </div>
+             <div class="modal-body text-center">
+               <div class="text-center">
+                 <div class="">
+                   <img src="../../assets/images/Mail_sent.png" style="width: 150px;">
+                 </div>
+               </div>
+               <h4 class="text-center font-weight-bold">Masukkan Kode Verifikasi</h4>
+               <p class="text-center mb-4">Kode verifikasi telah dikirim melalui Email Anda.</p>
+               <form autocomplete="off" id="otp-form">
+                 <input type="text" id="otp" />
+               </form>
+               <p style="font-size: 12px;" class="text-center">Tidak menerima kode? <span class="text-primary"><a
+                     href="#" id="btn-resend-otp">Kirim ulang</a></span></p>
+               <div class="modal-footer">
+                 <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                   Batal
+                 </button>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+
+       <!-- Modal forgot password -->
+       <div class="modal fade" id="modal-forgot-password" tabindex="-1" role="dialog"
+         aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+         <div class="modal-dialog modal-dialog-centered" role="document">
+           <div class="modal-content">
+             <div class="modal-header">
+               <h5 class="modal-title" id="exampleModalLongTitle">Kata Sandi Baru</h5>
+               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                 <span aria-hidden="true">&times;</span>
+               </button>
+             </div>
+             <div class="modal-body">
+               <form id="form-forgot-password">
+                 <p style="font-size: 12px; color: hsl(0, 0%, 71%); font-weight: 10px; margin-bottom: 0px !important;">
+                   Buat kata sandi yang kuat untuk akun anda.</p>
+                 <hr class="mb-4" style="margin-top: 2px !important;">
+                 <input type="hidden" id="forgot-id" />
+                 <div class="form-group">
+                   <label>Kata Sandi Baru</label>
+                   <div class="input-group" id="show_hide_password">
+                     <input id="new-password" type="password" class="form-control" placeholder="Masukkan Kata Sandi Baru"
+                       aria-describedby="button-addon2">
+                     <div class="input-group-append">
+                       <button class="btn btn-outline-secondary"
+                         style="border-top-right-radius: 20px; border-bottom-right-radius: 20px ;" type="button"
+                         id="button-addon2"><a class="mdi mdi-eye-off" aria-hidden="true"></a></button>
+                     </div>
+                   </div>
+                 </div>
+                 <div class="form-group">
+                   <label>Ulangi Kata Sandi Baru</label>
+                   <div class="input-group" id="show_hide_password">
+                     <input id="confirm-password" type="password" class="form-control" placeholder="Ulangi Kata Sandi Baru"
+                       aria-describedby="button-addon2">
+                     <div class="input-group-append">
+                       <button class="btn btn-outline-secondary"
+                         style="border-top-right-radius: 20px; border-bottom-right-radius: 20px ;" type="button"
+                         id="button-addon2"><a class="mdi mdi-eye-off" aria-hidden="true"></a></button>
+                     </div>
+                   </div>
+                 </div>
+                 <div class="modal-footer">
+                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>
+                   <button type="submit" class="btn btn-primary">Simpan</button>
+                 </div>
+               </form>
+             </div>
+           </div>
+         </div>
+       </div>
+        <footer class="footer">
+          <div class="d-sm-flex justify-content-center justify-content-sm-between">
+            <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">&copy; Copyright <strong>Sipandu
+                Beradat</strong>. All Rights
+              Reserved</span>
+            <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">
+              Designed by <a href="#" class="text-primary">Teknologi Cerdas Squad</a></span>
+          </div>
+        </footer>
+      </div>
+      <!-- main-panel ends -->
+    </div>
+    <!-- page-body-wrapper ends -->
+  </div>
+  <!-- container-scroller -->
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/1.10.24/js/dataTables.bootstrap4.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+
+  <script src="../../assets/js/off-canvas.js"></script>
+  <script src="../../assets/js/hoverable-collapse.js"></script>
+  <script src="../../assets/js/misc.js"></script>
+
+  <script src="../../assets/js/filter-table.js"></script>
+
+  <!-- alert & Loading -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+  <script src="../../assets/js/loading.js"></script>
+  <script src="../../assets/js/custom.js"></script>
+
+
+  <!-- auth JS -->
+  <script src="../auth/refresh-token.js"></script>
+  <script src="../auth/logout.js"></script>
+  <script src="../auth/navbar-admin.js"></script>
+  <script src="js/show-password.js"></script>
+  <script src="js/forgot-password.js"></script>
+
+  <!-- front end js -->
+  <script src="js/read-admin.js"></script>
+  <script src="js/edit-admin.js"></script>
+  <script src="js/delete-admin.js"></script>
+  <script src="js/create-admin.js"></script>
+</body>
+
+</html>

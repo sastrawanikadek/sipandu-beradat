@@ -1,0 +1,16 @@
+[21-Apr-2021 08:14:14 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/masyarakat/change-name/index.php:56
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/masyarakat/change-name/index.php on line 56
+[21-Apr-2021 08:14:21 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/masyarakat/change-name/index.php:56
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/masyarakat/change-name/index.php on line 56
+[21-Apr-2021 08:28:06 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/masyarakat/change-name/index.php:52
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/masyarakat/change-name/index.php on line 52
+[21-Apr-2021 08:28:15 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/masyarakat/change-name/index.php:52
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/masyarakat/change-name/index.php on line 52

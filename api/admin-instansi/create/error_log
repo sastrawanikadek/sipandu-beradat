@@ -1,0 +1,9 @@
+[03-May-2021 11:31:38 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/admin-instansi/create/index.php:132
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/admin-instansi/create/index.php on line 132
+[03-May-2021 20:33:04 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/admin-instansi/create/index.php:132
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/admin-instansi/create/index.php on line 132
+[03-May-2021 20:45:53 Asia/Makassar] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/sipd6579/public_html/api/admin-instansi/create/index.php on line 132

@@ -1,0 +1,2 @@
+[22-May-2021 21:42:19 Asia/Makassar] PHP Warning:  move_uploaded_file(/images/1621690939-650356335.png): failed to open stream: No such file or directory in /home/sipd6579/public_html/api/helpers/file.php on line 40
+[22-May-2021 21:42:19 Asia/Makassar] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php922Uyj' to '/images/1621690939-650356335.png' in /home/sipd6579/public_html/api/helpers/file.php on line 40

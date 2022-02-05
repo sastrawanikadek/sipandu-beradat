@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="RoundedRectangle">
+        <item name="cornerSize">24dp</item>
+    </style>
+    <style name="SmallRoundedRectangle">
+        <item name="cornerSize">8dp</item>
+    </style>
+    <style name="ExtraSmallRoundedRectangle">
+        <item name="cornerSize">4dp</item>
+    </style>
+    <style name="TimelineChip" parent="TextAppearance.MaterialComponents.Chip">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

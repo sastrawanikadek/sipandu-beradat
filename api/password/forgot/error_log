@@ -1,0 +1,12 @@
+[25-May-2021 14:58:58 Asia/Makassar] PHP Warning:  Use of undefined constant payload - assumed 'payload' (this will throw an Error in a future version of PHP) in /home/sipd6579/public_html/api/password/forgot/index.php on line 6
+[25-May-2021 14:58:58 Asia/Makassar] PHP Warning:  Illegal string offset 'role' in /home/sipd6579/public_html/api/password/forgot/index.php on line 6
+[25-May-2021 14:59:36 Asia/Makassar] PHP Warning:  Use of undefined constant payload - assumed 'payload' (this will throw an Error in a future version of PHP) in /home/sipd6579/public_html/api/password/forgot/index.php on line 6
+[25-May-2021 14:59:36 Asia/Makassar] PHP Warning:  Illegal string offset 'role' in /home/sipd6579/public_html/api/password/forgot/index.php on line 6
+[28-May-2021 13:25:55 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/password/forgot/index.php:56
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/password/forgot/index.php on line 56
+[28-May-2021 13:29:34 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/password/forgot/index.php:58
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/password/forgot/index.php on line 58

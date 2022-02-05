@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ProgressButton">
+        <attr name="backgroundTint" format="color" />
+        <attr name="textColor" format="color" />
+        <attr name="progressColor" format="color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="cornerRadius" format="dimension" />
+        <attr name="text" format="string" />
+        <attr name="progressText" format="string" />
+        <attr name="showTextOnProgress" format="boolean" />
+        <attr name="disabled" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="SwipeableViewPager">
+        <attr name="swipeable" format="boolean" />
+        <attr name="autoMeasure" format="boolean" />
+        <attr name="measurePerChild" format="boolean" />
+    </declare-styleable>
+</resources>

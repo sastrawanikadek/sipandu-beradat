@@ -1,0 +1,32 @@
+[15-May-2021 09:48:02 Asia/Makassar] PHP Fatal error:  Uncaught Kreait\Firebase\Exception\InvalidArgumentException: Message data must be a one-dimensional array of string(able) keys and values. in /home/sipd6579/public_html/api/vendor/kreait/firebase-php/src/Firebase/Messaging/MessageData.php:27
+Stack trace:
+#0 /home/sipd6579/public_html/api/vendor/kreait/firebase-php/src/Firebase/Messaging/CloudMessage.php(122): Kreait\Firebase\Messaging\MessageData::fromArray(Array)
+#1 /home/sipd6579/public_html/api/helpers/notification.php(11): Kreait\Firebase\Messaging\CloudMessage->withData(Array)
+#2 /home/sipd6579/public_html/api/pelaporan-darurat/create/index.php(482): send_notifications(Object(Kreait\Firebase\Factory), Array, Array)
+#3 {main}
+  thrown in /home/sipd6579/public_html/api/vendor/kreait/firebase-php/src/Firebase/Messaging/MessageData.php on line 27
+[15-May-2021 10:08:38 Asia/Makassar] PHP Fatal error:  Uncaught Kreait\Firebase\Exception\InvalidArgumentException: Message data must be a one-dimensional array of string(able) keys and values. in /home/sipd6579/public_html/api/vendor/kreait/firebase-php/src/Firebase/Messaging/MessageData.php:27
+Stack trace:
+#0 /home/sipd6579/public_html/api/vendor/kreait/firebase-php/src/Firebase/Messaging/CloudMessage.php(122): Kreait\Firebase\Messaging\MessageData::fromArray(Array)
+#1 /home/sipd6579/public_html/api/helpers/notification.php(11): Kreait\Firebase\Messaging\CloudMessage->withData(Array)
+#2 /home/sipd6579/public_html/api/pelaporan-darurat/create/index.php(482): send_notifications(Object(Kreait\Firebase\Factory), Array, Array)
+#3 {main}
+  thrown in /home/sipd6579/public_html/api/vendor/kreait/firebase-php/src/Firebase/Messaging/MessageData.php on line 27
+[15-May-2021 10:08:44 Asia/Makassar] PHP Fatal error:  Uncaught Kreait\Firebase\Exception\InvalidArgumentException: Message data must be a one-dimensional array of string(able) keys and values. in /home/sipd6579/public_html/api/vendor/kreait/firebase-php/src/Firebase/Messaging/MessageData.php:27
+Stack trace:
+#0 /home/sipd6579/public_html/api/vendor/kreait/firebase-php/src/Firebase/Messaging/CloudMessage.php(122): Kreait\Firebase\Messaging\MessageData::fromArray(Array)
+#1 /home/sipd6579/public_html/api/helpers/notification.php(11): Kreait\Firebase\Messaging\CloudMessage->withData(Array)
+#2 /home/sipd6579/public_html/api/pelaporan-darurat/create/index.php(482): send_notifications(Object(Kreait\Firebase\Factory), Array, Array)
+#3 {main}
+  thrown in /home/sipd6579/public_html/api/vendor/kreait/firebase-php/src/Firebase/Messaging/MessageData.php on line 27
+[16-May-2021 14:47:01 Asia/Makassar] PHP Warning:  array_push() expects parameter 1 to be array, string given in /home/sipd6579/public_html/api/pelaporan-darurat/create/index.php on line 475
+[16-May-2021 14:51:28 Asia/Makassar] PHP Warning:  array_push() expects parameter 1 to be array, string given in /home/sipd6579/public_html/api/pelaporan-darurat/create/index.php on line 475
+[16-May-2021 14:56:25 Asia/Makassar] PHP Warning:  array_push() expects parameter 1 to be array, string given in /home/sipd6579/public_html/api/pelaporan-darurat/create/index.php on line 475
+[16-May-2021 14:58:10 Asia/Makassar] PHP Warning:  array_push() expects parameter 1 to be array, string given in /home/sipd6579/public_html/api/pelaporan-darurat/create/index.php on line 475
+[16-May-2021 15:01:00 Asia/Makassar] PHP Warning:  array_push() expects parameter 1 to be array, string given in /home/sipd6579/public_html/api/pelaporan-darurat/create/index.php on line 475
+[16-May-2021 15:04:12 Asia/Makassar] PHP Warning:  array_push() expects parameter 1 to be array, string given in /home/sipd6579/public_html/api/pelaporan-darurat/create/index.php on line 475
+[16-May-2021 15:08:09 Asia/Makassar] PHP Warning:  array_push() expects parameter 1 to be array, string given in /home/sipd6579/public_html/api/pelaporan-darurat/create/index.php on line 475
+[16-May-2021 15:10:33 Asia/Makassar] PHP Warning:  array_push() expects parameter 1 to be array, string given in /home/sipd6579/public_html/api/pelaporan-darurat/create/index.php on line 475
+[16-May-2021 15:12:52 Asia/Makassar] PHP Warning:  array_push() expects parameter 1 to be array, string given in /home/sipd6579/public_html/api/pelaporan-darurat/create/index.php on line 475
+[16-May-2021 15:15:20 Asia/Makassar] PHP Warning:  array_push() expects parameter 1 to be array, string given in /home/sipd6579/public_html/api/pelaporan-darurat/create/index.php on line 475
+[16-May-2021 15:17:03 Asia/Makassar] PHP Warning:  array_push() expects parameter 1 to be array, string given in /home/sipd6579/public_html/api/pelaporan-darurat/create/index.php on line 475

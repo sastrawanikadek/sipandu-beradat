@@ -1,0 +1,9 @@
+[11-May-2021 08:19:39 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/sipd6579/public_html/api/kerabat-tamu/index.php on line 654
+[12-May-2021 15:00:36 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/kerabat-tamu/index.php:66
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/kerabat-tamu/index.php on line 66
+[12-May-2021 15:00:36 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/kerabat-tamu/index.php:66
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/kerabat-tamu/index.php on line 66

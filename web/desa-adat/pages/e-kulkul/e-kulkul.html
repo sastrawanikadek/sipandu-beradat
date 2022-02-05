@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>E-Kulkul | Sipandu Beradat</title>
+  <link rel="stylesheet" href="../../assets/vendors/mdi/css/materialdesignicons.min.css" />
+  <link rel="stylesheet" href="../../assets/vendors/flag-icon-css/css/flag-icon.min.css" />
+  <link rel="stylesheet" href="../../assets/vendors/css/vendor.bundle.base.css" />
+  <link rel="stylesheet" href="../../assets/css/style.css" />
+  <link rel="shortcut icon" href="../../assets/logo/logosb.png" />
+
+  <link rel="stylesheet" href="../../assets/css/custom-style.css">
+  
+
+  <link rel="stylesheet" href="../../assets/css/dataTables.bootstrap4.min.css" />
+  <link rel="stylesheet" href="../../assets/css/select2.min.css">
+  <link rel="stylesheet" href="../../assets/css/profile.css">
+</head>
+
+<body>
+  <div class="position-fixed fixed-top" id="loading" style="display: none; z-index:9999;">
+    <div style="width: 100%; height:100vh; background-color:rgba(0, 0, 0, 0.7)"
+      class="d-flex align-items-center justify-content-center">
+      <div class="d-flex justify-content-center align-items-center flex-column">
+<div class="spinner-border text-primary-red" role="status" style="width: 4rem; height: 4rem"></div>
+        <h5 class="text-light pt-4 zindex-modal">Sedang Memproses..</h5>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-scroller">
+    <nav class="sidebar sidebar-offcanvas" id="sidebar">
+      <div class="sidebar-brand-wrapper d-flex align-items-center justify-content-center">
+        <a class="sidebar-brand brand-logo" href="../../index.html"><img alt="Images"
+            src="../../assets/logo/desa adat.png" alt="logo" /></a>
+        <a class="sidebar-brand brand-logo-mini" href="../../index.html"><img alt="Images"
+            src="../../assets/logo/logosb.png" alt="logo" /></a>
+      </div>
+      <ul class="nav">
+        <li class="nav-item nav-profile bg-pink">
+          <a href="#" class="nav-link">
+            <div class="nav-profile-image">
+              <img alt="Images" class="avatar-admin" src="" alt="profile" />
+            </div>
+            <div class="nav-profile-text d-flex flex-column pr-3">
+              <span class="mb-2 nama-admin text-capitalize"></span>
+              <span>Desa <span class="nama-desa"></span></span>
+            </div>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="../../index.html">
+            <i class="mdi mdi-apps menu-icon"></i>
+            <span class="menu-title">Dashboard</span>
+          </a>
+        </li>
+        <li class="nav-item" id="sidenav-admin">
+          <a class="nav-link" href="../admin-desa-adat/admin-desa-adat.html">
+            <i class="mdi mdi-account menu-icon"></i>
+            <span class="menu-title">Admin Desa Adat</span>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="../banjar/banjar.html">
+            <i class="mdi mdi-bank menu-icon"></i>
+            <span class="menu-title">Banjar</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../daftar-hitam/daftar-hitam.html">
+            <i class="mdi mdi-block-helper menu-icon"></i>
+            <span class="menu-title">Daftar Hitam</span>
+          </a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="../e-kulkul/e-kulkul.html">
+            <i class="mdi mdi-alarm-light menu-icon active"></i>
+            <span class="menu-title">E-Kulkul</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../krama-desa-adat/krama-desa-adat.html">
+            <i class="mdi mdi-account-multiple menu-icon"></i>
+            <span class="menu-title">Krama Desa Adat</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="collapse" href="#nav-pecalang" aria-expanded="false"
+            aria-controls="ui-basic">
+            <i class="mdi mdi-shield menu-icon"></i>
+            <span class="menu-title">Perangkat Desa</span>
+            <i class="menu-arrow"></i>
+          </a>
+          <div class="collapse" id="nav-pecalang">
+            <ul class="nav flex-column sub-menu">
+              <li class="nav-item">
+                <a class="nav-link" href="../perangkat-desa/perangkat-desa.html">Perangkat Desa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../jadwal-pecalang/jadwal.html">Jadwal Pecalang</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../pelaporan/pelaporan.html">
+            <i class="mdi mdi-file-multiple menu-icon"></i>
+            <span class="menu-title">Pelaporan</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../berita/berita.html">
+            <i class="mdi mdi-newspaper menu-icon"></i>
+            <span class="menu-title">Berita</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="container-fluid page-body-wrapper">
+      <div id="theme-settings" class="settings-panel">
+        <i class="settings-close mdi mdi-close"></i>
+        <p class="settings-heading">SIDEBAR SKINS</p>
+        <div class="sidebar-bg-options selected" id="sidebar-default-theme">
+          <div class="img-ss rounded-circle bg-light border mr-3"></div>
+          Default
+        </div>
+        <div class="sidebar-bg-options" id="sidebar-dark-theme">
+          <div class="img-ss rounded-circle bg-dark border mr-3"></div>
+          Dark
+        </div>
+        <p class="settings-heading mt-2">HEADER SKINS</p>
+        <div class="color-tiles mx-0 px-4">
+          <div class="tiles light"></div>
+          <div class="tiles dark"></div>
+        </div>
+      </div>
+      <nav class="navbar col-lg-12 col-12 p-lg-0 fixed-top d-flex flex-row">
+        <div class="navbar-menu-wrapper d-flex align-items-center justify-content-between">
+          <a class="navbar-brand brand-logo-mini align-self-center d-lg-none" href="../../index.html"><img alt="Images"
+              src="../../assets/logo/logosb.png" alt="logo" /></a>
+          <button class="navbar-toggler navbar-toggler align-self-center mr-2" type="button" data-toggle="minimize">
+            <i class="mdi mdi-menu"></i>
+          </button>
+          <div class="nav-desa flex-column ml-2">
+            <h6 class="m-0 mb-1 text-muted">Desa Adat</h6>
+            <h5 class="m-0 text-dark nama-desa text-capitalize"></h5>
+          </div>
+          <ul class="navbar-nav navbar-nav-right ml-lg-auto">
+            <li class="nav-item nav-profile dropdown border-0">
+              <a class="nav-link dropdown-toggle" id="profileDropdown" href="#" data-toggle="dropdown">
+                <img alt="Images" class="nav-profile-img mr-2 avatar-admin" src="" />
+                <span class="profile-name nama-admin text-capitalize"></span>
+              </a>
+              <div class="dropdown-menu navbar-dropdown w-100" aria-labelledby="profileDropdown">
+                <a class="dropdown-item" href="../profil-akun/profil-admin.html">
+                  <i class="mdi mdi-account-box-outline mr-2 text-success"></i>Profil Admin</a>
+                <a class="dropdown-item" data-toggle="modal" data-target="#modal-logout">
+                  <i class="mdi mdi-logout mr-2 text-primary"></i>Keluar</a>
+              </div>
+            </li>
+          </ul>
+          <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button"
+            data-toggle="offcanvas">
+            <span class="mdi mdi-menu"></span>
+          </button>
+        </div>
+      </nav>
+      <div class="main-panel">
+        <div class="content-wrapper">
+          <div class="page-header d-flex flex-between align-items-center px-2">
+            <div class="d-flex flex-column">
+              <h1 class="page-title">E-Kulkul</h1>
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb p-0 mt-1">
+                  <li class="breadcrumb-item">
+                    <a href="../../index.html">Dashboard</a>
+                  </li>
+                  <li class="breadcrumb-item active" aria-current="page">
+                    E-Kulkul
+                  </li>
+                </ol>
+              </nav>
+            </div>
+            <button type="button" data-toggle="modal" data-target="#modal-tambah-kulkul"
+              class="btn btn-tambah btn-rounded btn-primary btn-icon-text">
+              <i class="mdi mdi-plus btn-icon-prepend"></i>Tambah E-Kulkul
+            </button>
+            <button type="button" data-toggle="modal" data-target="#modal-tambah-kulkul"
+              class="btn-circle-tambah shadow-sm btn-primary"><i class="mdi mdi-plus m-0 p-0"
+                style="font-size: 20px;"></i></button>
+          </div>
+          <div class="row">
+            <div class="col-lg-12 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title mb-4 pb-2">Data e-kulkul</h4>
+                  <table class="table table-datatable" id="tabel-kulkul">
+                    <thead class="bg-light">
+                      <tr>
+                        <th>No</th>
+                        <th data-type="text">Kode E-Kulkul</th>
+                        <th>Foto</th>
+                        <th data-type="text">Lokasi</th>
+                        <th data-type="select">Status Aktif</th>
+                        <th>Aksi</th>
+                      </tr>
+                    </thead>
+                    <tbody style="text-transform: capitalize;">
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal Tambah E-Kulkul -->
+        <div class="modal fade" id="modal-tambah-kulkul" role="dialog" aria-labelledby="exampleModalCenterTitle"
+          aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document" style="max-width: 700px;">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">
+                  Tambah Data E-Kulkul
+                </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <form id="form-tambah-kulkul">
+                  <div class="row">
+                    <div class="form-group col-md-4 mb-0">
+                      <div class="profile-img">
+                        <img alt="Images" class="preview-img" src="../../assets/img/upload-file-square.svg"
+                          class="modal-img" />
+                        <div class="ganti-foto btn btn-edit-profil">
+                          <input type="file" class="upload-img" id="tambah-photo" name="file" />Ganti Foto</div>
+                      </div>
+                    </div>
+
+                    <div class="form-group col-md-8 mb-0">
+                      <div class="form-group mb-4">
+                        <label for="tambah-kode">Kode E-Kulkul</label>
+                        <input type="text" disabled autocomplete="off" placeholder="Kode E-Kulkul" class="form-control"
+                          id="tambah-kode" />
+                      </div>
+
+                      <div class="form-group mb-4">
+                        <label for="tambah-location">Lokasi</label>
+                        <input type="text" autocomplete="off" class="form-control" id="tambah-location"
+                          placeholder="Lokasi E-Kulkul" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                      Batal
+                    </button>
+                    <button type="submit" class="btn btn-primary">
+                      Simpan
+                    </button>
+                  </div>
+
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Logout Modal-->
+        <div class="modal fade" id="modal-logout" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">
+                  Apakah anda yakin akan keluar?
+                </h5>
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>Tekan tombol keluar untuk keluar dari akun ini.</p>
+                <div class="modal-footer">
+                  <button class="btn btn-secondary" type="button" data-dismiss="modal">
+                    Batal
+                  </button>
+                  <button class="btn btn-primary btn-logout">Keluar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal Hapus -->
+        <div class="modal fade" id="modal-hapus-kulkul" role="dialog" aria-labelledby="exampleModalCenterTitle"
+          aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">
+                  Hapus Data E-Kulkul
+                </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>Apakah anda yakin menghapus data E-Kulkul ini?</p>
+                <input type="hidden" id="hapus-id" />
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                    Batal
+                  </button>
+                  <button type="button" class="btn btn-primary" id="btn-hapus-kulkul">
+                    Hapus
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal Edit kulkul -->
+        <div class="modal fade modal-option-search" id="modal-edit-kulkul" role="dialog"
+          aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document" style="max-width: 700px;">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">
+                  Edit Data kulkul
+                </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <form id="form-edit-kulkul">
+                  <div class="row">
+                    <div class="form-group col-md-4 mb-0">
+                      <div class="profile-img">
+                        <img alt="Images" class="preview-img" src="../../assets/images/carousel/banner_4.jpg"
+                          id="view-edit-photo" />
+                        <div class="ganti-foto btn btn-edit-profil">
+                          <input type="file" class="upload-img" id="edit-photo" name="file" />Ganti Foto</div>
+                      </div>
+                    </div>
+
+                    <div class="form-group col-md-8 mb-0">
+                      <input type="hidden" id="edit-id" />
+                      <input type="hidden" id="edit-id-desa" />
+                      <input type="hidden" id="edit-code" />
+                      <div class="form-group mb-4">
+                        <label for="edit-location">Lokasi</label>
+                        <input style="text-transform: capitalize;" type="text" class="form-control"
+                          id="edit-location" />
+                      </div>
+
+                      <div class="form-group mb-4">
+                        <label>Status Aktif</label>
+                        <select class="js-example-basic-single" id="edit-active-status" style="width: 100%">
+                          <option value="true">Aktif</option>
+                          <option value="false">Nonaktif</option>
+                        </select>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                          Batal
+                        </button>
+                        <button type="submit" class="btn btn-primary">
+                          Simpan
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- modal img -->
+        <div class="modal fade" id="modal-show-img" role="dialog" aria-labelledby="exampleModalCenterTitle"
+          aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document" style="max-width: 700px;">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title"></h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body m-auto">
+                <img alt="Images" class="img-fluid show-img" src="">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <footer class="footer">
+          <div class="d-sm-flex justify-content-center justify-content-sm-between">
+            <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">&copy; Copyright <strong>Sipandu
+                Beradat</strong>. All Rights
+              Reserved</span>
+            <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">
+              Designed by <a href="#" class="text-primary">Teknologi Cerdas Squad</a></span>
+          </div>
+        </footer>
+      </div>
+      <!-- main-panel ends -->
+    </div>
+    <!-- page-body-wrapper ends -->
+  </div>
+  <!-- container-scroller -->
+  <script src="../../assets/vendors/js/vendor.bundle.base.js"></script>
+  <script src="../../assets/js/off-canvas.js"></script>
+  <script src="../../assets/js/hoverable-collapse.js"></script>
+  <script src="../../assets/js/misc.js"></script>
+  <script src="../../assets//js/custom.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/1.10.24/js/dataTables.bootstrap4.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+  <script src="../../assets/js/filter-table.js"></script>
+
+  <!-- alert & Loading -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+  <script src="../../assets/js/loading.js"></script>
+
+  <!-- auth js -->
+  <script src="../auth/refresh-token.js"></script>
+  <script src="../auth/logout.js"></script>
+  <script src="../auth/navbar-admin.js"></script>
+
+  <!-- front end js -->
+  <script src="js/read-kulkul.js"></script>
+  <script src="js/edit-kulkul.js"></script>
+  <script src="js/delete-kulkul.js"></script>
+  <script src="js/create-kulkul.js"></script>
+</body>
+
+</html>

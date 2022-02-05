@@ -1,0 +1,39 @@
+[17-Jun-2021 06:40:10 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/otp/send/index.php:69
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/otp/send/index.php on line 69
+[17-Jun-2021 06:57:53 Asia/Makassar] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home/sipd6579/public_html/api/helpers/mail.php:5
+Stack trace:
+#0 /home/sipd6579/public_html/api/otp/send/index.php(133): send_mail('One Time Passwo...', 'ibagungnsd13@gm...', '<h4 style='font...')
+#1 {main}
+  thrown in /home/sipd6579/public_html/api/helpers/mail.php on line 5
+[17-Jun-2021 07:02:35 Asia/Makassar] PHP Fatal error:  Uncaught Error: Class 'SMTP' not found in /home/sipd6579/public_html/api/helpers/classes/class.phpmailer.php:1921
+Stack trace:
+#0 /home/sipd6579/public_html/api/helpers/classes/class.phpmailer.php(2042): PHPMailer->getSMTPInstance()
+#1 /home/sipd6579/public_html/api/helpers/classes/class.phpmailer.php(1958): PHPMailer->smtpConnect(Array)
+#2 /home/sipd6579/public_html/api/helpers/classes/class.phpmailer.php(1636): PHPMailer->smtpSend('Date: Thu, 17 J...', 'This is a multi...')
+#3 /home/sipd6579/public_html/api/helpers/classes/class.phpmailer.php(1469): PHPMailer->postSend()
+#4 /home/sipd6579/public_html/api/helpers/mail.php(19): PHPMailer->send()
+#5 /home/sipd6579/public_html/api/otp/send/index.php(133): send_mail('One Time Passwo...', 'ibagungnsd13@gm...', '<h4 style='font...')
+#6 {main}
+  thrown in /home/sipd6579/public_html/api/helpers/classes/class.phpmailer.php on line 1921
+[17-Jun-2021 07:04:54 Asia/Makassar] PHP Fatal error:  Uncaught Error: Class 'SMTP' not found in /home/sipd6579/public_html/api/helpers/classes/class.phpmailer.php:1921
+Stack trace:
+#0 /home/sipd6579/public_html/api/helpers/classes/class.phpmailer.php(2042): PHPMailer->getSMTPInstance()
+#1 /home/sipd6579/public_html/api/helpers/classes/class.phpmailer.php(1958): PHPMailer->smtpConnect(Array)
+#2 /home/sipd6579/public_html/api/helpers/classes/class.phpmailer.php(1636): PHPMailer->smtpSend('Date: Thu, 17 J...', 'This is a multi...')
+#3 /home/sipd6579/public_html/api/helpers/classes/class.phpmailer.php(1469): PHPMailer->postSend()
+#4 /home/sipd6579/public_html/api/helpers/mail.php(19): PHPMailer->send()
+#5 /home/sipd6579/public_html/api/otp/send/index.php(133): send_mail('One Time Passwo...', 'ibagungnsd13@gm...', '<h4 style='font...')
+#6 {main}
+  thrown in /home/sipd6579/public_html/api/helpers/classes/class.phpmailer.php on line 1921
+[17-Jun-2021 07:08:11 Asia/Makassar] PHP Fatal error:  Uncaught Error: Class 'PHPMailer\PHPMailer' not found in /home/sipd6579/public_html/api/helpers/mail.php:7
+Stack trace:
+#0 /home/sipd6579/public_html/api/otp/send/index.php(133): send_mail('One Time Passwo...', 'ibagungnsd13@gm...', '<h4 style='font...')
+#1 {main}
+  thrown in /home/sipd6579/public_html/api/helpers/mail.php on line 7
+[17-Jun-2021 07:10:55 Asia/Makassar] PHP Fatal error:  Uncaught Error: Class 'PHPMailer\PHPMailer' not found in /home/sipd6579/public_html/api/helpers/mail.php:7
+Stack trace:
+#0 /home/sipd6579/public_html/api/otp/send/index.php(133): send_mail('One Time Passwo...', 'ibagungnsd13@gm...', '<h4 style='font...')
+#1 {main}
+  thrown in /home/sipd6579/public_html/api/helpers/mail.php on line 7

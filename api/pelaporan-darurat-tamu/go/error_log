@@ -1,0 +1,4 @@
+[17-May-2021 18:44:36 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to undefined function send_notifications() in /home/sipd6579/public_html/api/pelaporan-darurat-tamu/go/index.php:163
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/pelaporan-darurat-tamu/go/index.php on line 163

@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>Detail Pelaporan | Sipandu Beradat</title>
+  <link rel="stylesheet" href="../../assets/vendors/mdi/css/materialdesignicons.min.css" />
+  <link rel="stylesheet" href="../../assets/vendors/flag-icon-css/css/flag-icon.min.css" />
+  <link rel="stylesheet" href="../../assets/vendors/css/vendor.bundle.base.css" />
+  <link rel="stylesheet" href="../../assets/css/style.css" />
+  <link rel="shortcut icon" href="../../assets/logo/logosb.png" />
+
+  <link rel="stylesheet" href="../../assets/css/custom-style.css">
+  
+  <link rel="stylesheet" href="../../assets/css/dataTables.bootstrap4.min.css" />
+  <link rel="stylesheet" href="../../assets/css/detail-pelaporan.css">
+</head>
+
+<body>
+  <div class="container-scroller">
+    <nav class="sidebar sidebar-offcanvas" id="sidebar">
+      <div class="sidebar-brand-wrapper d-flex align-items-center justify-content-center">
+        <a class="sidebar-brand brand-logo" href="../../index.html"><img alt="Images"
+            src="../../assets//logo/desa adat.png" alt="logo" /></a>
+        <a class="sidebar-brand brand-logo-mini" href="../../index.html"><img alt="Images"
+            src="../../assets/logo/logosb.png" alt="logo" /></a>
+      </div>
+      <ul class="nav">
+        <li class="nav-item nav-profile bg-pink">
+          <a href="#" class="nav-link">
+            <div class="nav-profile-image">
+              <img alt="Images" class="avatar-admin" src="" alt="profile" />
+            </div>
+            <div class="nav-profile-text d-flex flex-column pr-3">
+              <span class="mb-2 nama-admin text-capitalize"></span>
+              <span>Desa <span class="nama-desa"></span></span>
+            </div>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="../../index.html">
+            <i class="mdi mdi-apps menu-icon"></i>
+            <span class="menu-title">Dashboard</span>
+          </a>
+        </li>
+        <li class="nav-item" id="sidenav-admin">
+          <a class="nav-link" href="../admin-desa-adat/admin-desa-adat.html">
+            <i class="mdi mdi-account menu-icon"></i>
+            <span class="menu-title">Admin Desa Adat</span>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="../banjar/banjar.html">
+            <i class="mdi mdi-bank menu-icon"></i>
+            <span class="menu-title">Banjar</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../daftar-hitam/daftar-hitam.html">
+            <i class="mdi mdi-block-helper menu-icon"></i>
+            <span class="menu-title">Daftar Hitam</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../e-kulkul/e-kulkul.html">
+            <i class="mdi mdi-alarm-light menu-icon"></i>
+            <span class="menu-title">E-Kulkul</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../krama-desa-adat/krama-desa-adat.html">
+            <i class="mdi mdi-account-multiple menu-icon"></i>
+            <span class="menu-title">Krama Desa Adat</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="collapse" href="#nav-pecalang" aria-expanded="false"
+            aria-controls="ui-basic">
+            <i class="mdi mdi-shield menu-icon"></i>
+            <span class="menu-title">Perangkat Desa</span>
+            <i class="menu-arrow"></i>
+          </a>
+          <div class="collapse" id="nav-pecalang">
+            <ul class="nav flex-column sub-menu">
+              <li class="nav-item">
+                <a class="nav-link" href="../perangkat-desa/perangkat-desa.html">Perangkat Desa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../jadwal-pecalang/jadwal.html">Jadwal Pecalang</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="../pelaporan/pelaporan.html">
+            <i class="mdi mdi-file-multiple menu-icon active"></i>
+            <span class="menu-title">Pelaporan</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../berita/berita.html">
+            <i class="mdi mdi-newspaper menu-icon"></i>
+            <span class="menu-title">Berita</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="container-fluid page-body-wrapper">
+      <div id="theme-settings" class="settings-panel">
+        <i class="settings-close mdi mdi-close"></i>
+        <p class="settings-heading">SIDEBAR SKINS</p>
+        <div class="sidebar-bg-options selected" id="sidebar-default-theme">
+          <div class="img-ss rounded-circle bg-light border mr-3"></div>
+          Default
+        </div>
+        <div class="sidebar-bg-options" id="sidebar-dark-theme">
+          <div class="img-ss rounded-circle bg-dark border mr-3"></div>
+          Dark
+        </div>
+        <p class="settings-heading mt-2">HEADER SKINS</p>
+        <div class="color-tiles mx-0 px-4">
+          <div class="tiles light"></div>
+          <div class="tiles dark"></div>
+        </div>
+      </div>
+      <nav class="navbar col-lg-12 col-12 p-lg-0 fixed-top d-flex flex-row">
+        <div class="navbar-menu-wrapper d-flex align-items-center justify-content-between">
+          <a class="navbar-brand brand-logo-mini align-self-center d-lg-none" href="../../index.html"><img alt="Images"
+              src="../../assets/logo/logosb.png" alt="logo" /></a>
+          <button class="navbar-toggler navbar-toggler align-self-center mr-2" type="button" data-toggle="minimize">
+            <i class="mdi mdi-menu"></i>
+          </button>
+          <div class="nav-desa ml-2">
+            <h6 class="m-0 mb-1 text-muted">Desa Adat</h6>
+            <h5 class="m-0 text-dark nama-desa text-capitalize"></h5>
+          </div>
+          <ul class="navbar-nav navbar-nav-right ml-lg-auto">
+            <li class="nav-item nav-profile dropdown border-0">
+              <a class="nav-link dropdown-toggle" id="profileDropdown" href="#" data-toggle="dropdown">
+                <img alt="Images" class="nav-profile-img mr-2 avatar-admin" src="" />
+                <span class="profile-name nama-admin text-capitalize"></span>
+              </a>
+              <div class="dropdown-menu navbar-dropdown w-100" aria-labelledby="profileDropdown">
+                <a class="dropdown-item" href="../profil-akun/profil-admin.html">
+                  <i class="mdi mdi-account-box-outline mr-2 text-success"></i>Profil Admin</a>
+                <a class="dropdown-item" data-toggle="modal" data-target="#modal-logout">
+                  <i class="mdi mdi-logout mr-2 text-primary"></i>Keluar</a>
+              </div>
+            </li>
+          </ul>
+          <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button"
+            data-toggle="offcanvas">
+            <span class="mdi mdi-menu"></span>
+          </button>
+        </div>
+      </nav>
+      <div class="main-panel">
+        <div class="content-wrapper">
+          <div class="row">
+            <div class="col-xl-5 order-xl-2">
+              <div class="card card-profile">
+                <div class="foto" style="border-top-left-radius:8px; border-top-right-radius:8px">
+                  <img alt="Images" id="view-avatar-cover" src="" alt="Image placeholder" class="card-img-top"
+                    style="filter: blur(6px); border-top-left-radius:8px; border-top-right-radius:8px">
+                </div>
+                <div class="row justify-content-center">
+                  <div class="col-lg-3 order-lg-2">
+                    <div class="card-profile-image" style="background-size: cover;">
+                      <img alt="Images" id="view-avatar" src="" class="rounded-circle modal-img profil-foto">
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body" style="margin-top: 50px;">
+                  <div class="text-center pt-3">
+                    <h5 class="h4 font-weight-bold text-dark" id="view-name" style="text-transform: capitalize;">
+                    </h5>
+                    <div class="d-flex justify-content-center align-items-center" id="view-status">
+
+                    </div>
+                  </div>
+                  <hr class="my-4" />
+                  <div class="row">
+                    <div class="col p-0">
+                      <div class="card-profile-stats d-flex justify-content-center">
+                        <div class="d-flex flex-column align-items-center" style="flex: 33%;">
+                          <span class="h6 text-secondary">Kategori</span>
+                          <span class="h6 font-weight-bold" id="view-kategori-pelaporan"></span>
+                        </div>
+                        <div class="d-flex flex-column align-items-center" style="flex: 33%;">
+                          <span class="h6 text-secondary">Pelapor</span>
+                          <span class="h6 font-weight-bold" id="view-pelapor"></span>
+                        </div>
+                        <div class="d-flex flex-column align-items-center" style="flex: 33%;">
+                          <span class="h6 text-secondary">Waktu</span>
+                          <span class="h6 font-weight-bold" id="view-time"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Col Keterangan -->
+            <div class="col-xl-7 order-xl-1 informasi">
+              <div class="card shadow">
+                <!-- Card Body -->
+                <div class="card-body">
+                  <div class="d-flex justify-content-between align-items-center mb-4 pb-2">
+                    <h4 class="card-title mb-0">Detail Pelaporan <span id="text-kategori-pelaporan"></span></h4>
+                    <button class="btn btn-tambah btn-rounded btn-primary btn-icon-text" id="go-back">
+                      <i class="mdi mdi-chevron-left btn-icon-prepend"></i>Kembali
+                    </button>
+                  </div>
+                  <h6 class="text-muted mb-4">Informasi Pelaporan</h6>
+                  <form>
+                    <div class="row" id="form-title">
+                      <div class="col-lg-12">
+                        <div class="form-group">
+                          <label for="nama">Judul Pelaporan</label>
+                          <input type="text" autocomplete="off" id="detail-title" class="form-control">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <div class="form-group">
+                          <label for="nama">Nama Lengkap</label>
+                          <input type="text" autocomplete="off" id="detail-nama" class="form-control"
+                            style="text-transform: capitalize;">
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="form-group">
+                          <label for="nama">Jenis Pelaporan</label>
+                          <input type="text" autocomplete="off" id="detail-jenis-pelaporan" class="form-control">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row" id="form-description">
+                      <div class="col-lg-12">
+                        <div class="form-group">
+                          <label for="input-email">Deskripsi Pelaporan</label>
+                          <textarea type="text" id="detail-description" class="form-control"></textarea>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <div class="form-group">
+                          <label for="input-email">No. Telp</label>
+                          <input type="text" autocomplete="off" id="detail-phone" class="form-control">
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="form-group">
+                          <label for="input-first-name">Jenis Kelamin</label>
+                          <input type="text" autocomplete="off" id="detail-gender" class="form-control">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row" id="form-photo">
+                      <div class="col-lg-12">
+                        <div class="form-group">
+                          <label>Foto keluhan</label>
+                          <div id="carousel-img-pelaporan" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner" id="detail-pelaporan-img">
+
+                            </div>
+                            <a class="carousel-control-prev" href="#carousel-img-pelaporan" role="button"
+                              data-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carousel-img-pelaporan" role="button"
+                              data-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Next</span>
+                            </a>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                    <hr class="my-4" />
+                    <!-- Address -->
+                    <h6 class="text-muted mb-4">Lokasi Pelaporan</h6>
+                    <div class="row">
+                      <div class="col-lg-4">
+                        <div class="form-group">
+                          <label for="input-country">Desa Adat</label>
+                          <input type="text" autocomplete="off" id="detail-desa-adat" class="form-control">
+                        </div>
+                      </div>
+                      <div class="col-lg-4">
+                        <div class="form-group">
+                          <label for="input-country">Kecamatan</label>
+                          <input type="text" autocomplete="off" id="detail-kecamatan" class="form-control">
+                        </div>
+                      </div>
+                      <div class="col-lg-4">
+                        <div class="form-group">
+                          <label for="input-city">Kabupaten</label>
+                          <input type="text" autocomplete="off" id="detail-kabupaten" class="form-control">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <div class="form-group">
+                          <label for="peta-keluhan">Peta Keluhan</label>
+                          <div id="maps" style="width: 100%; height:300px"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <!-- End Card Body -->
+
+              </div>
+            </div>
+            <!-- End Col Keterangan -->
+
+          </div>
+        </div>
+
+        <!-- Logout Modal-->
+        <div class="modal fade" id="modal-logout" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">
+                  Apakah anda yakin akan keluar?
+                </h5>
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>Tekan tombol keluar untuk keluar dari akun ini.</p>
+                <div class="modal-footer">
+                  <button class="btn btn-secondary" type="button" data-dismiss="modal">
+                    Batal
+                  </button>
+                  <button class="btn btn-primary btn-logout">Keluar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- modal img -->
+        <div class="modal fade" id="modal-show-img" role="dialog" aria-labelledby="exampleModalCenterTitle"
+          aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content" x>
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body m-auto">
+                <img alt="Images" class="img-fluid show-img" src="">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <footer class="footer">
+          <div class="d-sm-flex justify-content-center justify-content-sm-between">
+            <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">&copy; Copyright <strong>Sipandu
+                Beradat</strong>. All Rights
+              Reserved</span>
+            <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">
+              Designed by <a href="#" class="text-primary">Teknologi Cerdas Squad</a></span>
+          </div>
+        </footer>
+      </div>
+      <!-- main-panel ends -->
+    </div>
+    <!-- page-body-wrapper ends -->
+  </div>
+  <!-- container-scroller -->
+  <script src="../../assets/vendors/js/vendor.bundle.base.js"></script>
+  <script src="../../assets/js/off-canvas.js"></script>
+  <script src="../../assets/js/hoverable-collapse.js"></script>
+  <script src="../../assets/js/misc.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+    integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+    integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/1.10.24/js/dataTables.bootstrap4.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+  <!-- alert & Loading -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+  <script src="../../assets/js/loading.js"></script>
+
+  <!-- auth js -->
+  <script src="../auth/refresh-token.js"></script>
+  <script src="../auth/logout.js"></script>
+  <script src="../auth/navbar-admin.js"></script>
+
+  <!-- front end js -->
+  <script src="../auth/helper.js"></script>
+  <script src="js/read-detail-pelaporan.js"></script>
+  <script src="js/maps-pelaporan.js"></script>
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvC1wgMf7631iiv1o7kaNXcnswYQ9b59I&callback=initMyMap"
+    async defer></script>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+[13-May-2021 21:51:21 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function format() on null in /home/sipd6579/public_html/api/admin-akomodasi/analytic/index.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/admin-akomodasi/analytic/index.php on line 25
+[13-May-2021 21:51:22 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function format() on null in /home/sipd6579/public_html/api/admin-akomodasi/analytic/index.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/admin-akomodasi/analytic/index.php on line 25
+[13-May-2021 21:51:24 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function format() on null in /home/sipd6579/public_html/api/admin-akomodasi/analytic/index.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/admin-akomodasi/analytic/index.php on line 25
+[13-May-2021 21:52:44 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function format() on null in /home/sipd6579/public_html/api/admin-akomodasi/analytic/index.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/admin-akomodasi/analytic/index.php on line 25

@@ -1,0 +1,396 @@
+[24-May-2021 14:32:07 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 14:32:43 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 14:40:02 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 14:42:21 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 14:44:07 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 14:44:38 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 14:45:47 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 14:48:41 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 14:53:14 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 14:56:14 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:01:06 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:03:13 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:05:32 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:08:54 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:10:58 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:10:58 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:13:00 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:21:08 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:21:08 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:21:32 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:24:49 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:25:40 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:26:28 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:26:37 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:26:39 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:26:40 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:26:53 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:27:00 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:27:02 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:27:03 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:27:09 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:27:12 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:27:49 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:27:49 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:29:15 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:33:22 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:33:29 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:38:05 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:38:47 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:38:51 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:45:34 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:47:03 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:47:04 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:47:20 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:48:20 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:48:20 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:48:52 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:48:52 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:49:05 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:49:15 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:49:48 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:50:08 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:51:24 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:51:24 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:52:02 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:52:31 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:55:54 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:56:02 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:56:03 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:56:55 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:56:56 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:58:03 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:58:22 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:58:22 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:58:29 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:58:31 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:58:31 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:58:54 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:59:33 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:59:47 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 15:59:48 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 16:01:23 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 16:01:51 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 16:02:04 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 16:02:20 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 16:02:37 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 16:02:38 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 16:03:06 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 16:03:31 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 16:03:31 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 16:03:33 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 16:03:59 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 16:04:01 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 16:04:03 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 16:04:10 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 16:04:29 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 16:04:33 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 16:05:15 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 16:05:17 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 16:05:23 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 16:08:37 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 16:08:38 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 16:09:30 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 16:09:33 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 16:09:47 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 16:14:41 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 16:15:33 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 16:16:05 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128
+[24-May-2021 16:16:30 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/jadwal-pecalang/index.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/jadwal-pecalang/index.php on line 128

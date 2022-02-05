@@ -1,0 +1,40 @@
+[21-May-2021 18:52:57 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/pecalang/index.php:132
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/pecalang/index.php on line 132
+[21-May-2021 20:38:17 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/pecalang/index.php:132
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/pecalang/index.php on line 132
+[22-May-2021 12:55:31 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/pecalang/index.php:132
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/pecalang/index.php on line 132
+[24-May-2021 16:16:52 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/pecalang/index.php:132
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/pecalang/index.php on line 132
+[24-May-2021 16:16:58 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/pecalang/index.php:132
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/pecalang/index.php on line 132
+[24-May-2021 21:07:41 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/pecalang/index.php:132
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/pecalang/index.php on line 132
+[24-May-2021 21:07:43 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/pecalang/index.php:132
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/pecalang/index.php on line 132
+[24-May-2021 21:08:19 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/pecalang/index.php:132
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/pecalang/index.php on line 132
+[24-May-2021 21:09:31 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/pecalang/index.php:132
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/pecalang/index.php on line 132
+[24-May-2021 21:10:10 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/pecalang/index.php:132
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/pecalang/index.php on line 132

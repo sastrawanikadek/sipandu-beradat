@@ -1,0 +1,30 @@
+[14-May-2021 11:17:47 Asia/Makassar] PHP Fatal error:  Uncaught Kreait\Firebase\Exception\InvalidArgumentException: Message data must be a one-dimensional array of string(able) keys and values. in /home/sipd6579/public_html/api/vendor/kreait/firebase-php/src/Firebase/Messaging/MessageData.php:27
+Stack trace:
+#0 /home/sipd6579/public_html/api/vendor/kreait/firebase-php/src/Firebase/Messaging/CloudMessage.php(122): Kreait\Firebase\Messaging\MessageData::fromArray(Array)
+#1 /home/sipd6579/public_html/api/helpers/notification.php(9): Kreait\Firebase\Messaging\CloudMessage->withData(Array)
+#2 /home/sipd6579/public_html/api/kerabat/create/index.php(250): send_notifications(Object(Kreait\Firebase\Factory), Array, Array)
+#3 {main}
+  thrown in /home/sipd6579/public_html/api/vendor/kreait/firebase-php/src/Firebase/Messaging/MessageData.php on line 27
+[14-May-2021 11:29:16 Asia/Makassar] PHP Fatal error:  Uncaught Kreait\Firebase\Exception\Messaging\NotFound: 
+
+The message could not be delivered to the device identified by 'eoW8cvdgSNic1hfcqPbuyB:APA91bGDNdzumi3yh8px8hhy0XoCi-QaAgdXyDZsBqktNrmVi0Kmyvl5S3v_J_UIOKDaSFhqs3RYYQZmUcbzf1YsD1eEHlg1n2jZqBcOTF6qCT-X0NRbym9xGRJJr8j-DYLU9sC-JQ_L'.
+
+Although the token is syntactically correct, it is not known to the Firebase
+project you are using. This could have the following reasons:
+
+- The token has been unregistered from the project. This can happen when a user
+  has logged out from the application on the given client, or if they have
+  uninstalled or re-installed the application.
+
+- The token has been registered to a different Firebase project than the project
+  you are using to send the message. A common reason for this is when you work
+  with different application environments and are sending a message from one
+  environment to a device in another environment.
+
+ in /home/sipd6579/public_html/api/vendor/kreait/firebase-php/src/Firebase/Exception/Messaging/NotFound.p in /home/sipd6579/public_html/api/vendor/kreait/firebase-php/src/Firebase/Exception/Messaging/NotFound.php on line 40
+[29-May-2021 14:23:05 Asia/Makassar] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to Kreait\Firebase\Messaging\CloudMessage::withTarget() must be of the type string, null given, called in /home/sipd6579/public_html/api/helpers/notification.php on line 10 and defined in /home/sipd6579/public_html/api/vendor/kreait/firebase-php/src/Firebase/Messaging/CloudMessage.php:42
+Stack trace:
+#0 /home/sipd6579/public_html/api/helpers/notification.php(10): Kreait\Firebase\Messaging\CloudMessage::withTarget('token', NULL)
+#1 /home/sipd6579/public_html/api/kerabat/create/index.php(278): send_notifications(Object(Kreait\Firebase\Factory), Array, Array)
+#2 {main}
+  thrown in /home/sipd6579/public_html/api/vendor/kreait/firebase-php/src/Firebase/Messaging/CloudMessage.php on line 42

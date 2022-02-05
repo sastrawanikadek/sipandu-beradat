@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<title>Profil Krama Desa Adat | Sipandu Beradat</title>
+	<link rel="stylesheet" href="../../assets/vendors/mdi/css/materialdesignicons.min.css" />
+	<link rel="stylesheet" href="../../assets/vendors/flag-icon-css/css/flag-icon.min.css" />
+	<link rel="stylesheet" href="../../assets/vendors/css/vendor.bundle.base.css" />
+	<link rel="stylesheet" href="../../assets/css/style.css" />
+	<link rel="shortcut icon" href="../../assets/logo/logosb.png" />
+
+	<link rel="stylesheet" href="../../assets/css/custom-style.css">
+
+	<link rel="stylesheet" href="../../assets/css/dataTables.bootstrap4.min.css" />
+	<link rel="stylesheet" href="../../assets/css/select2.min.css">
+	<link rel="stylesheet" href="../../assets/css/profile.css">
+</head>
+
+<body>
+	<div class="position-fixed fixed-top" id="loading" style="display: none; z-index:9999;">
+		<div style="width: 100%; height:100vh; background-color:rgba(0, 0, 0, 0.7)"
+			class="d-flex align-items-center justify-content-center">
+			<div class="d-flex justify-content-center align-items-center flex-column">
+				<div class="spinner-border text-primary-red" role="status" style="width: 4rem; height: 4rem"></div>
+				<h5 class="text-light pt-4 zindex-modal">Sedang Memproses..</h5>
+			</div>
+		</div>
+	</div>
+	<div class="container-scroller">
+		<nav class="sidebar sidebar-offcanvas shadow" id="sidebar">
+			<div class="sidebar-brand-wrapper d-flex align-items-center justify-content-center">
+				<a class="sidebar-brand brand-logo" href="../../index.html"><img alt="Images"
+						src="../../assets//logo/desa adat.png" alt="logo" /></a>
+				<a class="sidebar-brand brand-logo-mini" href="../../index.html"><img alt="Images"
+						src="../../assets/logo/logosb.png" alt="logo" /></a>
+			</div>
+			<ul class="nav">
+				<li class="nav-item nav-profile bg-pink">
+					<a href="#" class="nav-link">
+					  <div class="nav-profile-image">
+						<img alt="Images" class="avatar-admin" src="" alt="profile" />
+					  </div>
+					  <div class="nav-profile-text d-flex flex-column pr-3">
+						<span class="mb-2 nama-admin text-capitalize"></span>
+						<span>Desa <span class="nama-desa"></span></span>
+					  </div>
+					</a>
+				  </li>
+
+				<li class="nav-item">
+					<a class="nav-link" href="../../index.html">
+						<i class="mdi mdi-apps menu-icon"></i>
+						<span class="menu-title">Dashboard</span>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="../admin-desa-adat/admin-desa-adat.html">
+						<i class="mdi mdi-account menu-icon"></i>
+						<span class="menu-title">Admin Desa Adat</span>
+					</a>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link" href="../banjar/banjar.html">
+						<i class="mdi mdi-bank menu-icon"></i>
+						<span class="menu-title">Banjar</span>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="../daftar-hitam/daftar-hitam.html">
+						<i class="mdi mdi-block-helper menu-icon"></i>
+						<span class="menu-title">Daftar Hitam</span>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="../e-kulkul/e-kulkul.html">
+						<i class="mdi mdi-alarm-light menu-icon"></i>
+						<span class="menu-title">E-Kulkul</span>
+					</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="../krama-desa-adat/krama-desa-adat.html">
+						<i class="mdi mdi-account-multiple menu-icon active"></i>
+						<span class="menu-title">Krama Desa Adat</span>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-toggle="collapse" href="#nav-pecalang" aria-expanded="false"
+						aria-controls="ui-basic">
+						<i class="mdi mdi-shield menu-icon"></i>
+						<span class="menu-title">Perangkat Desa</span>
+						<i class="menu-arrow"></i>
+					</a>
+					<div class="collapse" id="nav-pecalang">
+						<ul class="nav flex-column sub-menu">
+							<li class="nav-item">
+								<a class="nav-link" href="../perangkat-desa/perangkat-desa.html">Perangkat Desa</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="../jadwal-pecalang/jadwal.html">Jadwal Pecalang</a>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="../pelaporan/pelaporan.html">
+						<i class="mdi mdi-file-multiple menu-icon"></i>
+						<span class="menu-title">Pelaporan</span>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="../berita/berita.html">
+						<i class="mdi mdi-newspaper menu-icon"></i>
+						<span class="menu-title">Berita</span>
+					</a>
+				</li>
+			</ul>
+		</nav>
+		<div class="container-fluid page-body-wrapper">
+			<div id="theme-settings" class="settings-panel">
+				<i class="settings-close mdi mdi-close"></i>
+				<p class="settings-heading">SIDEBAR SKINS</p>
+				<div class="sidebar-bg-options selected" id="sidebar-default-theme">
+					<div class="img-ss rounded-circle bg-light border mr-3"></div>
+					Default
+				</div>
+				<div class="sidebar-bg-options" id="sidebar-dark-theme">
+					<div class="img-ss rounded-circle bg-dark border mr-3"></div>
+					Dark
+				</div>
+				<p class="settings-heading mt-2">HEADER SKINS</p>
+				<div class="color-tiles mx-0 px-4">
+					<div class="tiles light"></div>
+					<div class="tiles dark"></div>
+				</div>
+			</div>
+			<nav class="navbar col-lg-12 col-12 p-lg-0 fixed-top d-flex flex-row">
+				<div class="navbar-menu-wrapper d-flex align-items-center justify-content-between">
+					<a class="navbar-brand brand-logo-mini align-self-center d-lg-none" href="../../index.html"><img
+							alt="Images" src="../../assets/logo/logosb.png" alt="logo" /></a>
+					<button class="navbar-toggler navbar-toggler align-self-center mr-2" type="button"
+						data-toggle="minimize">
+						<i class="mdi mdi-menu"></i>
+					</button>
+					<div class="nav-desa ml-2">
+						<h6 class="m-0 mb-1 text-muted">Desa Adat</h6>
+						<h5 class="m-0 text-dark nama-desa text-capitalize"></h5>
+					</div>
+					<ul class="navbar-nav navbar-nav-right ml-lg-auto">
+						<li class="nav-item nav-profile dropdown border-0">
+							<a class="nav-link dropdown-toggle" id="profileDropdown" href="#" data-toggle="dropdown">
+								<img alt="Images" class="nav-profile-img mr-2 avatar-admin" src="" />
+								<span class="profile-name nama-admin text-capitalize"></span>
+							</a>
+							<div class="dropdown-menu navbar-dropdown w-100" aria-labelledby="profileDropdown">
+								<a class="dropdown-item" href="../profil-akun/profil-admin.html">
+									<i class="mdi mdi-account-box-outline mr-2 text-success"></i>Profil Admin</a>
+								<a class="dropdown-item" data-toggle="modal" data-target="#modal-logout">
+									<i class="mdi mdi-logout mr-2 text-primary"></i>Keluar</a>
+							</div>
+						</li>
+					</ul>
+					<button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button"
+						data-toggle="offcanvas">
+						<span class="mdi mdi-menu"></span>
+					</button>
+				</div>
+			</nav>
+			<div class="main-panel">
+				<div class="profile-section">
+					<div class="cover">
+						<img alt="Images" id="cover" style="filter: blur(5px);" src="">
+					</div>
+					<div class="btn-kembali">
+						<a href="krama-desa-adat.html" class="btn btn-rounded btn-primary btn-icon-text">
+							<i class="mdi mdi-chevron-left btn-icon-prepend"></i>Kembali
+						</a>
+					</div>
+
+					<div class="section-profile">
+						<div class="img-content">
+							<div class="profile-foto-item" style="background-size: cover;">
+								<img alt="Images" data-toggle="modal" data-target="#modal-show-img" id="avatar" src=""
+									class="rounded-circle profil-foto modal-img">
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="content-wrapper" style="background-color: white;">
+					<div class="identitas">
+						<h2 class="font-weight-bold nama-profile" style="text-transform: capitalize;" id="name"></h2>
+						<h5 class="jenis-krama-profile" id="category"></h5>
+						<div class="d-flex text-icon-profile mt-4">
+							<div class="mdi mdi-map-marker text-secondary"><span> <span id="banjar"></span></span></div>
+							<div class="ml-3 mdi mdi-phone text-secondary"><span> <span id="phone"></span></span></div>
+							<div class="ml-3 mdi mdi-account text-secondary"><span> <span id="gender"></span></span></div>
+							<div class="ml-3 mdi mdi-cake-variant text-secondary"><span> <span id="birth"></span></span></div>
+						</div>
+						<hr>
+						<div class="d-flex mt-2 badges-profile">
+							<div id="valid-status"></div>
+							<div id="active-status"></div>
+							<div id="block-status"></div>
+						</div>
+					</div>
+				</div>
+
+				<!-- modal img -->
+				<div class="modal fade" id="modal-show-img" role="dialog" aria-labelledby="exampleModalCenterTitle"
+					aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered" role="document" style="max-width: 500px;">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body m-auto">
+								<img alt="Images" class="img-fluid show-img" src="">
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Logout Modal-->
+				<div class="modal fade" id="modal-logout" role="dialog" aria-labelledby="exampleModalLabel"
+					aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="exampleModalLabel">
+									Apakah anda yakin akan keluar?
+								</h5>
+								<button class="close" type="button" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">×</span>
+								</button>
+							</div>
+							<div class="modal-body">
+								<p>Tekan tombol keluar untuk keluar dari akun ini.</p>
+								<div class="modal-footer">
+									<button class="btn btn-secondary" type="button" data-dismiss="modal">
+										Batal
+									</button>
+									<button class="btn btn-primary btn-logout">Keluar</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<footer class="footer">
+					<div class="d-sm-flex justify-content-center justify-content-sm-between">
+						<span class="text-muted d-block text-center text-sm-left d-sm-inline-block">&copy; Copyright
+							<strong>Sipandu
+								Beradat</strong>. All Rights
+							Reserved</span>
+						<span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">
+							Designed by <a href="#" class="text-primary">Teknologi Cerdas Squad</a></span>
+					</div>
+				</footer>
+			</div>
+			<!-- main-panel ends -->
+		</div>
+		<!-- page-body-wrapper ends -->
+	</div>
+	<!-- container-scroller -->
+	<script src="../../assets/vendors/js/vendor.bundle.base.js"></script>
+	<script src="../../assets/js/off-canvas.js"></script>
+	<script src="../../assets/js/hoverable-collapse.js"></script>
+	<script src="../../assets/js/misc.js"></script>
+
+	<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+		crossorigin="anonymous"></script>
+
+	<script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
+	<script src="https://cdn.datatables.net/1.10.24/js/dataTables.bootstrap4.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+	<!-- alert & Loading -->
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+	<script src="../../assets/js/loading.js"></script>
+
+	<!-- auth js -->
+	<script src="../auth/refresh-token.js"></script>
+	<script src="../auth/logout.js"></script>
+	<script src="../auth/navbar-admin.js"></script>
+
+	<!-- front end js -->
+	<script src="../auth/logout.js"></script>
+	<script src="../auth/helper.js"></script>
+	<script src="js/profil-krama.js"></script>
+</body>
+
+</html>

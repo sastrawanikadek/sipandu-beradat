@@ -1,0 +1,8 @@
+[04-May-2021 06:54:15 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/masyarakat/delete/index.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/masyarakat/delete/index.php on line 27
+[04-May-2021 06:54:27 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/sipd6579/public_html/api/masyarakat/delete/index.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/sipd6579/public_html/api/masyarakat/delete/index.php on line 27
